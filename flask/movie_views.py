@@ -56,9 +56,10 @@ def showHistory():
     res = []
     if user_r: 
         userId = user_r['userId']
-        history = set(mongo.db.seen.find({'userId': userId})['seen'])
+        history = mongo.db.ratings.find({'userId': userId})
         for h in history:
             res.append({'title': mongo.db.movies.find_one({'movieId': h['movieId']})['title'], 'rating': h['rating']})
+
     return render_template(
     "showHistory.html",
     user=user,
