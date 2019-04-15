@@ -1,0 +1,706 @@
+[2019-04-14 17:48:54,063] {jobs.py:398} INFO - Started process (PID=8804) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:48:54,065] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:48:54,065] {logging_mixin.py:95} INFO - [2019-04-14 17:48:54,065] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:48:54,071] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:48:54,078] {logging_mixin.py:95} INFO - [2019-04-14 17:48:54,078] {__init__.py:4113} INFO - Creating ORM DAG for hello_world
+[2019-04-14 17:48:54,095] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.032 seconds
+[2019-04-14 17:49:34,096] {jobs.py:398} INFO - Started process (PID=8907) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:49:34,097] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:49:34,098] {logging_mixin.py:95} INFO - [2019-04-14 17:49:34,098] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:49:34,104] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:49:34,124] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 17:50:14,140] {jobs.py:398} INFO - Started process (PID=9060) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:50:14,143] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:50:14,144] {logging_mixin.py:95} INFO - [2019-04-14 17:50:14,144] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:50:14,158] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:50:14,183] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.044 seconds
+[2019-04-14 17:50:54,191] {jobs.py:398} INFO - Started process (PID=9123) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:50:54,206] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:50:54,207] {logging_mixin.py:95} INFO - [2019-04-14 17:50:54,207] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:50:54,220] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:50:54,236] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.045 seconds
+[2019-04-14 17:51:34,228] {jobs.py:398} INFO - Started process (PID=9201) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:51:34,231] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:51:34,232] {logging_mixin.py:95} INFO - [2019-04-14 17:51:34,231] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:51:34,238] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:51:34,256] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 17:52:14,248] {jobs.py:398} INFO - Started process (PID=9307) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:52:14,250] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:52:14,250] {logging_mixin.py:95} INFO - [2019-04-14 17:52:14,250] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:52:14,257] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:52:14,277] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 17:52:48,487] {jobs.py:398} INFO - Started process (PID=9397) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:52:48,489] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:52:48,489] {logging_mixin.py:95} INFO - [2019-04-14 17:52:48,489] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:52:48,498] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:52:48,531] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.044 seconds
+[2019-04-14 17:53:30,522] {jobs.py:398} INFO - Started process (PID=9471) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:53:30,525] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:53:30,525] {logging_mixin.py:95} INFO - [2019-04-14 17:53:30,525] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:53:30,534] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:53:30,554] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.032 seconds
+[2019-04-14 17:54:12,563] {jobs.py:398} INFO - Started process (PID=9535) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:54:12,564] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:54:12,564] {logging_mixin.py:95} INFO - [2019-04-14 17:54:12,564] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:54:12,571] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:54:12,587] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.025 seconds
+[2019-04-14 17:54:54,607] {jobs.py:398} INFO - Started process (PID=9619) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:54:54,609] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:54:54,610] {logging_mixin.py:95} INFO - [2019-04-14 17:54:54,610] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:54:54,619] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:54:54,640] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.033 seconds
+[2019-04-14 17:55:36,639] {jobs.py:398} INFO - Started process (PID=9715) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:55:36,642] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:55:36,642] {logging_mixin.py:95} INFO - [2019-04-14 17:55:36,642] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:55:36,651] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:55:36,675] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.036 seconds
+[2019-04-14 17:55:44,410] {jobs.py:398} INFO - Started process (PID=9729) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:55:44,412] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:55:44,412] {logging_mixin.py:95} INFO - [2019-04-14 17:55:44,412] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:55:44,419] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:55:44,436] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 17:56:26,458] {jobs.py:398} INFO - Started process (PID=9782) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:56:26,460] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:56:26,461] {logging_mixin.py:95} INFO - [2019-04-14 17:56:26,461] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:56:26,468] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:56:26,492] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.033 seconds
+[2019-04-14 17:57:20,019] {jobs.py:398} INFO - Started process (PID=9870) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:57:20,021] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:57:20,021] {logging_mixin.py:95} INFO - [2019-04-14 17:57:20,021] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:57:20,027] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:57:20,048] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 17:58:23,699] {jobs.py:398} INFO - Started process (PID=10176) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:58:23,704] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:58:23,705] {logging_mixin.py:95} INFO - [2019-04-14 17:58:23,705] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:58:23,717] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:58:23,747] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.047 seconds
+[2019-04-14 17:59:05,735] {jobs.py:398} INFO - Started process (PID=10275) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:59:05,739] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:59:05,739] {logging_mixin.py:95} INFO - [2019-04-14 17:59:05,739] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:59:05,749] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:59:05,769] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.034 seconds
+[2019-04-14 17:59:47,778] {jobs.py:398} INFO - Started process (PID=10346) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:59:47,780] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 17:59:47,780] {logging_mixin.py:95} INFO - [2019-04-14 17:59:47,780] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:59:47,787] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 17:59:47,803] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.025 seconds
+[2019-04-14 18:00:29,806] {jobs.py:398} INFO - Started process (PID=10404) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:00:29,809] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:00:29,809] {logging_mixin.py:95} INFO - [2019-04-14 18:00:29,809] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:00:29,819] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:00:29,841] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.034 seconds
+[2019-04-14 18:01:11,847] {jobs.py:398} INFO - Started process (PID=10473) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:01:11,849] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:01:11,849] {logging_mixin.py:95} INFO - [2019-04-14 18:01:11,849] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:01:11,858] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:01:11,883] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.037 seconds
+[2019-04-14 18:01:53,880] {jobs.py:398} INFO - Started process (PID=10548) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:01:53,882] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:01:53,883] {logging_mixin.py:95} INFO - [2019-04-14 18:01:53,883] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:01:53,893] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:01:53,913] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.034 seconds
+[2019-04-14 18:02:35,921] {jobs.py:398} INFO - Started process (PID=10602) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:02:35,924] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:02:35,924] {logging_mixin.py:95} INFO - [2019-04-14 18:02:35,924] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:02:35,933] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:02:35,957] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.036 seconds
+[2019-04-14 18:03:17,960] {jobs.py:398} INFO - Started process (PID=10734) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:03:17,963] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:03:17,963] {logging_mixin.py:95} INFO - [2019-04-14 18:03:17,963] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:03:17,972] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:03:17,992] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:04:16,477] {jobs.py:398} INFO - Started process (PID=10864) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:04:16,479] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:04:16,479] {logging_mixin.py:95} INFO - [2019-04-14 18:04:16,479] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:04:16,485] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:04:16,505] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:05:03,813] {jobs.py:398} INFO - Started process (PID=10935) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:05:03,816] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:05:03,816] {logging_mixin.py:95} INFO - [2019-04-14 18:05:03,816] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:05:03,825] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:05:03,844] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.032 seconds
+[2019-04-14 18:06:01,289] {jobs.py:398} INFO - Started process (PID=11243) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:06:01,290] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:06:01,291] {logging_mixin.py:95} INFO - [2019-04-14 18:06:01,290] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:06:01,297] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:06:01,318] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:06:43,332] {jobs.py:398} INFO - Started process (PID=11298) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:06:43,334] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:06:43,335] {logging_mixin.py:95} INFO - [2019-04-14 18:06:43,335] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:06:43,343] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:06:43,365] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.033 seconds
+[2019-04-14 18:07:25,371] {jobs.py:398} INFO - Started process (PID=11405) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:07:25,373] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:07:25,374] {logging_mixin.py:95} INFO - [2019-04-14 18:07:25,374] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:07:25,383] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:07:25,402] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:08:05,611] {jobs.py:398} INFO - Started process (PID=11515) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:08:05,613] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:08:05,614] {logging_mixin.py:95} INFO - [2019-04-14 18:08:05,614] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:08:05,624] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:08:05,648] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.038 seconds
+[2019-04-14 18:09:03,198] {jobs.py:398} INFO - Started process (PID=11733) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:09:03,200] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:09:03,200] {logging_mixin.py:95} INFO - [2019-04-14 18:09:03,200] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:09:03,207] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:09:03,228] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:09:45,234] {jobs.py:398} INFO - Started process (PID=11884) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:09:45,239] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:09:45,242] {logging_mixin.py:95} INFO - [2019-04-14 18:09:45,241] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:09:45,255] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:09:45,290] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.056 seconds
+[2019-04-14 18:10:27,271] {jobs.py:398} INFO - Started process (PID=11941) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:10:27,273] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:10:27,273] {logging_mixin.py:95} INFO - [2019-04-14 18:10:27,273] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:10:27,280] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:10:27,296] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.025 seconds
+[2019-04-14 18:11:09,313] {jobs.py:398} INFO - Started process (PID=12040) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:11:09,316] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:11:09,316] {logging_mixin.py:95} INFO - [2019-04-14 18:11:09,316] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:11:09,328] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:11:09,350] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.037 seconds
+[2019-04-14 18:11:51,365] {jobs.py:398} INFO - Started process (PID=12154) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:11:51,367] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:11:51,367] {logging_mixin.py:95} INFO - [2019-04-14 18:11:51,367] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:11:51,380] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:11:51,432] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.068 seconds
+[2019-04-14 18:12:33,387] {jobs.py:398} INFO - Started process (PID=12210) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:12:33,390] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:12:33,390] {logging_mixin.py:95} INFO - [2019-04-14 18:12:33,390] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:12:33,396] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:12:33,414] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 18:13:15,426] {jobs.py:398} INFO - Started process (PID=12268) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:13:15,429] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:13:15,429] {logging_mixin.py:95} INFO - [2019-04-14 18:13:15,429] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:13:15,438] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:13:15,457] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:13:57,458] {jobs.py:398} INFO - Started process (PID=12510) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:13:57,460] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:13:57,460] {logging_mixin.py:95} INFO - [2019-04-14 18:13:57,460] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:13:57,468] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:13:57,487] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:14:39,498] {jobs.py:398} INFO - Started process (PID=12583) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:14:39,500] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:14:39,501] {logging_mixin.py:95} INFO - [2019-04-14 18:14:39,501] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:14:39,512] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:14:39,538] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.040 seconds
+[2019-04-14 18:15:21,536] {jobs.py:398} INFO - Started process (PID=12640) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:15:21,538] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:15:21,538] {logging_mixin.py:95} INFO - [2019-04-14 18:15:21,538] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:15:21,545] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:15:21,560] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.024 seconds
+[2019-04-14 18:16:03,572] {jobs.py:398} INFO - Started process (PID=12701) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:16:03,574] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:16:03,574] {logging_mixin.py:95} INFO - [2019-04-14 18:16:03,574] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:16:03,581] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:16:03,602] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 18:16:45,618] {jobs.py:398} INFO - Started process (PID=12752) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:16:45,621] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:16:45,621] {logging_mixin.py:95} INFO - [2019-04-14 18:16:45,621] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:16:45,627] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:16:45,645] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 18:17:27,646] {jobs.py:398} INFO - Started process (PID=12853) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:17:27,648] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:17:27,648] {logging_mixin.py:95} INFO - [2019-04-14 18:17:27,648] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:17:27,654] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:17:27,675] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:18:09,688] {jobs.py:398} INFO - Started process (PID=12938) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:18:09,690] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:18:09,691] {logging_mixin.py:95} INFO - [2019-04-14 18:18:09,690] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:18:09,697] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:18:09,718] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 18:18:51,726] {jobs.py:398} INFO - Started process (PID=13043) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:18:51,727] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:18:51,728] {logging_mixin.py:95} INFO - [2019-04-14 18:18:51,728] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:18:51,734] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:18:51,754] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:19:33,754] {jobs.py:398} INFO - Started process (PID=13156) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:19:33,756] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:19:33,757] {logging_mixin.py:95} INFO - [2019-04-14 18:19:33,757] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:19:33,762] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:19:33,784] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 18:20:15,786] {jobs.py:398} INFO - Started process (PID=13271) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:20:15,788] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:20:15,788] {logging_mixin.py:95} INFO - [2019-04-14 18:20:15,788] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:20:15,798] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:20:15,817] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:20:57,822] {jobs.py:398} INFO - Started process (PID=13342) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:20:57,827] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:20:57,828] {logging_mixin.py:95} INFO - [2019-04-14 18:20:57,827] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:20:57,836] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:20:57,865] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.044 seconds
+[2019-04-14 18:21:39,869] {jobs.py:398} INFO - Started process (PID=13580) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:21:39,879] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:21:39,880] {logging_mixin.py:95} INFO - [2019-04-14 18:21:39,880] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:21:39,894] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:21:39,919] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.050 seconds
+[2019-04-14 18:22:21,903] {jobs.py:398} INFO - Started process (PID=13668) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:22:21,906] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:22:21,907] {logging_mixin.py:95} INFO - [2019-04-14 18:22:21,906] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:22:21,914] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:22:21,932] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:23:03,929] {jobs.py:398} INFO - Started process (PID=13768) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:23:03,931] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:23:03,931] {logging_mixin.py:95} INFO - [2019-04-14 18:23:03,931] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:23:03,940] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:23:03,960] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:23:46,849] {jobs.py:398} INFO - Started process (PID=13833) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:23:46,852] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:23:46,852] {logging_mixin.py:95} INFO - [2019-04-14 18:23:46,852] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:23:46,859] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:23:46,880] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 18:24:31,448] {jobs.py:398} INFO - Started process (PID=13940) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:24:31,450] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:24:31,451] {logging_mixin.py:95} INFO - [2019-04-14 18:24:31,451] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:24:31,456] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:24:31,479] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:25:13,490] {jobs.py:398} INFO - Started process (PID=14013) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:25:13,491] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:25:13,492] {logging_mixin.py:95} INFO - [2019-04-14 18:25:13,492] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:25:13,498] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:25:13,516] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 18:25:55,525] {jobs.py:398} INFO - Started process (PID=14191) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:25:55,527] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:25:55,527] {logging_mixin.py:95} INFO - [2019-04-14 18:25:55,527] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:25:55,532] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:25:55,552] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 18:26:37,561] {jobs.py:398} INFO - Started process (PID=14325) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:26:37,564] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:26:37,564] {logging_mixin.py:95} INFO - [2019-04-14 18:26:37,564] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:26:37,570] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:26:37,597] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.036 seconds
+[2019-04-14 18:27:19,596] {jobs.py:398} INFO - Started process (PID=14401) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:27:19,599] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:27:19,599] {logging_mixin.py:95} INFO - [2019-04-14 18:27:19,599] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:27:19,612] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:27:19,634] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.038 seconds
+[2019-04-14 18:28:01,630] {jobs.py:398} INFO - Started process (PID=14485) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:28:01,631] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:28:01,632] {logging_mixin.py:95} INFO - [2019-04-14 18:28:01,632] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:28:01,638] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:28:01,656] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 18:28:43,668] {jobs.py:398} INFO - Started process (PID=14573) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:28:43,671] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:28:43,671] {logging_mixin.py:95} INFO - [2019-04-14 18:28:43,671] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:28:43,683] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:28:43,705] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.037 seconds
+[2019-04-14 18:29:25,701] {jobs.py:398} INFO - Started process (PID=14673) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:29:25,704] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:29:25,705] {logging_mixin.py:95} INFO - [2019-04-14 18:29:25,705] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:29:25,713] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:29:25,737] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.036 seconds
+[2019-04-14 18:30:07,736] {jobs.py:398} INFO - Started process (PID=14868) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:30:07,738] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:30:07,738] {logging_mixin.py:95} INFO - [2019-04-14 18:30:07,738] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:30:07,745] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:30:07,766] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 18:30:49,771] {jobs.py:398} INFO - Started process (PID=14959) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:30:49,773] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:30:49,773] {logging_mixin.py:95} INFO - [2019-04-14 18:30:49,773] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:30:49,780] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:30:49,800] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:31:31,811] {jobs.py:398} INFO - Started process (PID=15045) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:31:31,816] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:31:31,817] {logging_mixin.py:95} INFO - [2019-04-14 18:31:31,817] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:31:31,828] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:31:31,850] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.039 seconds
+[2019-04-14 18:32:13,851] {jobs.py:398} INFO - Started process (PID=15130) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:32:13,854] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:32:13,854] {logging_mixin.py:95} INFO - [2019-04-14 18:32:13,854] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:32:13,860] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:32:13,880] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:32:55,883] {jobs.py:398} INFO - Started process (PID=15215) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:32:55,885] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:32:55,885] {logging_mixin.py:95} INFO - [2019-04-14 18:32:55,885] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:32:55,894] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:32:55,914] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:33:37,923] {jobs.py:398} INFO - Started process (PID=15293) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:33:37,925] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:33:37,925] {logging_mixin.py:95} INFO - [2019-04-14 18:33:37,925] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:33:37,932] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:33:37,950] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 18:34:19,956] {jobs.py:398} INFO - Started process (PID=15358) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:34:19,959] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:34:19,959] {logging_mixin.py:95} INFO - [2019-04-14 18:34:19,959] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:34:19,965] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:34:19,982] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 18:35:01,993] {jobs.py:398} INFO - Started process (PID=15431) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:35:01,994] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:35:01,995] {logging_mixin.py:95} INFO - [2019-04-14 18:35:01,995] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:35:02,001] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:35:02,021] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:35:44,030] {jobs.py:398} INFO - Started process (PID=15507) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:35:44,032] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:35:44,032] {logging_mixin.py:95} INFO - [2019-04-14 18:35:44,032] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:35:44,038] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:35:44,055] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.025 seconds
+[2019-04-14 18:36:26,067] {jobs.py:398} INFO - Started process (PID=15577) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:36:26,069] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:36:26,070] {logging_mixin.py:95} INFO - [2019-04-14 18:36:26,070] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:36:26,077] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:36:26,100] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.033 seconds
+[2019-04-14 18:37:08,102] {jobs.py:398} INFO - Started process (PID=15652) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:37:08,104] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:37:08,105] {logging_mixin.py:95} INFO - [2019-04-14 18:37:08,105] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:37:08,112] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:37:08,137] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.035 seconds
+[2019-04-14 18:37:50,140] {jobs.py:398} INFO - Started process (PID=15719) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:37:50,141] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:37:50,142] {logging_mixin.py:95} INFO - [2019-04-14 18:37:50,142] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:37:50,148] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:37:50,168] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:38:32,177] {jobs.py:398} INFO - Started process (PID=15789) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:38:32,179] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:38:32,179] {logging_mixin.py:95} INFO - [2019-04-14 18:38:32,179] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:38:32,186] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:38:32,203] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 18:39:14,214] {jobs.py:398} INFO - Started process (PID=15941) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:39:14,218] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:39:14,218] {logging_mixin.py:95} INFO - [2019-04-14 18:39:14,218] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:39:14,224] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:39:14,243] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:39:56,250] {jobs.py:398} INFO - Started process (PID=16010) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:39:56,252] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:39:56,252] {logging_mixin.py:95} INFO - [2019-04-14 18:39:56,252] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:39:56,259] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:39:56,276] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 18:40:38,282] {jobs.py:398} INFO - Started process (PID=16078) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:40:38,284] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:40:38,284] {logging_mixin.py:95} INFO - [2019-04-14 18:40:38,284] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:40:38,290] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:40:38,309] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 18:41:20,323] {jobs.py:398} INFO - Started process (PID=16152) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:41:20,325] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:41:20,326] {logging_mixin.py:95} INFO - [2019-04-14 18:41:20,326] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:41:20,332] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:41:20,350] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:42:02,367] {jobs.py:398} INFO - Started process (PID=16215) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:42:02,370] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:42:02,370] {logging_mixin.py:95} INFO - [2019-04-14 18:42:02,370] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:42:02,375] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:42:02,395] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:42:44,410] {jobs.py:398} INFO - Started process (PID=16285) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:42:44,413] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:42:44,414] {logging_mixin.py:95} INFO - [2019-04-14 18:42:44,414] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:42:44,424] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:42:44,441] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:43:26,436] {jobs.py:398} INFO - Started process (PID=16354) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:43:26,439] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:43:26,439] {logging_mixin.py:95} INFO - [2019-04-14 18:43:26,439] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:43:26,449] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:43:26,472] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.037 seconds
+[2019-04-14 18:44:08,470] {jobs.py:398} INFO - Started process (PID=16425) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:44:08,475] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:44:08,476] {logging_mixin.py:95} INFO - [2019-04-14 18:44:08,476] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:44:08,487] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:44:08,510] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.040 seconds
+[2019-04-14 18:44:50,506] {jobs.py:398} INFO - Started process (PID=16497) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:44:50,507] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:44:50,508] {logging_mixin.py:95} INFO - [2019-04-14 18:44:50,508] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:44:50,513] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:44:50,531] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.025 seconds
+[2019-04-14 18:45:32,548] {jobs.py:398} INFO - Started process (PID=16570) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:45:32,551] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:45:32,552] {logging_mixin.py:95} INFO - [2019-04-14 18:45:32,552] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:45:32,563] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:45:32,584] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.036 seconds
+[2019-04-14 18:46:15,210] {jobs.py:398} INFO - Started process (PID=16633) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:46:15,214] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:46:15,214] {logging_mixin.py:95} INFO - [2019-04-14 18:46:15,214] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:46:15,220] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:46:15,238] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:46:57,248] {jobs.py:398} INFO - Started process (PID=16699) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:46:57,251] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:46:57,251] {logging_mixin.py:95} INFO - [2019-04-14 18:46:57,251] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:46:57,259] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:46:57,280] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.032 seconds
+[2019-04-14 18:47:39,291] {jobs.py:398} INFO - Started process (PID=16772) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:47:39,294] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:47:39,294] {logging_mixin.py:95} INFO - [2019-04-14 18:47:39,294] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:47:39,301] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:47:40,197] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.906 seconds
+[2019-04-14 18:48:21,345] {jobs.py:398} INFO - Started process (PID=16845) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:48:21,348] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:48:21,348] {logging_mixin.py:95} INFO - [2019-04-14 18:48:21,348] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:48:21,358] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:48:21,379] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.034 seconds
+[2019-04-14 18:49:03,381] {jobs.py:398} INFO - Started process (PID=16911) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:49:03,383] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:49:03,384] {logging_mixin.py:95} INFO - [2019-04-14 18:49:03,384] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:49:03,390] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:49:03,410] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.029 seconds
+[2019-04-14 18:49:45,972] {jobs.py:398} INFO - Started process (PID=16976) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:49:45,974] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:49:45,975] {logging_mixin.py:95} INFO - [2019-04-14 18:49:45,974] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:49:45,985] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:49:46,007] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.035 seconds
+[2019-04-14 18:50:28,008] {jobs.py:398} INFO - Started process (PID=17044) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:50:28,009] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:50:28,010] {logging_mixin.py:95} INFO - [2019-04-14 18:50:28,010] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:50:28,016] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:50:28,034] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 18:51:10,361] {jobs.py:398} INFO - Started process (PID=17112) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:51:10,363] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:51:10,363] {logging_mixin.py:95} INFO - [2019-04-14 18:51:10,363] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:51:10,370] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:51:10,385] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.024 seconds
+[2019-04-14 18:51:52,395] {jobs.py:398} INFO - Started process (PID=17183) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:51:52,400] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:51:52,400] {logging_mixin.py:95} INFO - [2019-04-14 18:51:52,400] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:51:52,411] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:51:52,434] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.039 seconds
+[2019-04-14 18:52:34,426] {jobs.py:398} INFO - Started process (PID=17255) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:52:34,429] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:52:34,429] {logging_mixin.py:95} INFO - [2019-04-14 18:52:34,429] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:52:34,439] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:52:34,461] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.035 seconds
+[2019-04-14 18:53:16,462] {jobs.py:398} INFO - Started process (PID=17320) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:53:16,465] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:53:16,466] {logging_mixin.py:95} INFO - [2019-04-14 18:53:16,466] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:53:16,478] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:53:16,504] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.042 seconds
+[2019-04-14 18:53:58,502] {jobs.py:398} INFO - Started process (PID=17396) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:53:58,505] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:53:58,506] {logging_mixin.py:95} INFO - [2019-04-14 18:53:58,506] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:53:58,518] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:53:58,541] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.039 seconds
+[2019-04-14 18:54:40,537] {jobs.py:398} INFO - Started process (PID=17460) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:54:40,542] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:54:40,543] {logging_mixin.py:95} INFO - [2019-04-14 18:54:40,543] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:54:40,554] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:54:40,578] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.041 seconds
+[2019-04-14 18:55:22,576] {jobs.py:398} INFO - Started process (PID=17526) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:55:22,580] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:55:22,581] {logging_mixin.py:95} INFO - [2019-04-14 18:55:22,581] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:55:22,593] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:55:22,618] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.042 seconds
+[2019-04-14 18:56:04,608] {jobs.py:398} INFO - Started process (PID=17596) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:56:04,611] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:56:04,611] {logging_mixin.py:95} INFO - [2019-04-14 18:56:04,611] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:56:04,621] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:56:04,643] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.035 seconds
+[2019-04-14 18:56:46,636] {jobs.py:398} INFO - Started process (PID=17662) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:56:46,640] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:56:46,640] {logging_mixin.py:95} INFO - [2019-04-14 18:56:46,640] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:56:46,648] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:56:46,668] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.032 seconds
+[2019-04-14 18:57:28,674] {jobs.py:398} INFO - Started process (PID=17726) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:57:28,676] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:57:28,677] {logging_mixin.py:95} INFO - [2019-04-14 18:57:28,677] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:57:28,685] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:57:28,705] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 18:58:10,709] {jobs.py:398} INFO - Started process (PID=17799) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:58:10,712] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:58:10,712] {logging_mixin.py:95} INFO - [2019-04-14 18:58:10,712] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:58:10,722] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:58:10,744] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.034 seconds
+[2019-04-14 18:58:52,741] {jobs.py:398} INFO - Started process (PID=17867) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:58:52,743] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:58:52,743] {logging_mixin.py:95} INFO - [2019-04-14 18:58:52,743] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:58:52,749] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:58:52,769] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 18:59:34,781] {jobs.py:398} INFO - Started process (PID=17934) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:59:34,782] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 18:59:34,783] {logging_mixin.py:95} INFO - [2019-04-14 18:59:34,782] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:59:34,789] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 18:59:34,806] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 19:27:57,619] {jobs.py:398} INFO - Started process (PID=18401) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:27:57,621] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:27:57,621] {logging_mixin.py:95} INFO - [2019-04-14 19:27:57,621] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:27:57,630] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:27:57,650] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.031 seconds
+[2019-04-14 19:28:39,242] {jobs.py:398} INFO - Started process (PID=18741) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:28:39,246] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:28:39,246] {logging_mixin.py:95} INFO - [2019-04-14 19:28:39,246] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:28:39,259] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:28:39,286] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.044 seconds
+[2019-04-14 19:29:21,292] {jobs.py:398} INFO - Started process (PID=18885) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:29:21,297] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:29:21,297] {logging_mixin.py:95} INFO - [2019-04-14 19:29:21,297] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:29:21,303] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:29:21,320] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 19:30:03,314] {jobs.py:398} INFO - Started process (PID=18947) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:30:03,317] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:30:03,317] {logging_mixin.py:95} INFO - [2019-04-14 19:30:03,317] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:30:03,328] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:30:03,348] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.034 seconds
+[2019-04-14 19:30:45,358] {jobs.py:398} INFO - Started process (PID=19052) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:30:45,361] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:30:45,361] {logging_mixin.py:95} INFO - [2019-04-14 19:30:45,361] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:30:45,371] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:30:45,401] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.043 seconds
+[2019-04-14 19:31:57,015] {jobs.py:398} INFO - Started process (PID=19205) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:31:57,019] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:31:57,019] {logging_mixin.py:95} INFO - [2019-04-14 19:31:57,019] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:31:57,031] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:31:57,051] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.036 seconds
+[2019-04-14 19:32:59,313] {jobs.py:398} INFO - Started process (PID=19446) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:32:59,316] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:32:59,316] {logging_mixin.py:95} INFO - [2019-04-14 19:32:59,316] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:32:59,325] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:32:59,351] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.038 seconds
+[2019-04-14 19:33:41,352] {jobs.py:398} INFO - Started process (PID=19518) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:33:41,355] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:33:41,356] {logging_mixin.py:95} INFO - [2019-04-14 19:33:41,356] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:33:41,366] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:33:41,387] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.035 seconds
+[2019-04-14 19:34:23,385] {jobs.py:398} INFO - Started process (PID=19590) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:34:23,388] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:34:23,389] {logging_mixin.py:95} INFO - [2019-04-14 19:34:23,389] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:34:23,400] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:34:23,426] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.040 seconds
+[2019-04-14 19:35:04,930] {jobs.py:398} INFO - Started process (PID=19689) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:35:04,933] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:35:04,933] {logging_mixin.py:95} INFO - [2019-04-14 19:35:04,933] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:35:04,947] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:35:04,997] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.067 seconds
+[2019-04-14 19:35:52,234] {jobs.py:398} INFO - Started process (PID=19788) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:35:52,237] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:35:52,239] {logging_mixin.py:95} INFO - [2019-04-14 19:35:52,237] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:35:52,246] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:35:52,264] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 19:36:34,947] {jobs.py:398} INFO - Started process (PID=19850) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:36:34,948] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:36:34,949] {logging_mixin.py:95} INFO - [2019-04-14 19:36:34,949] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:36:34,956] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:36:34,973] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 19:37:16,985] {jobs.py:398} INFO - Started process (PID=19915) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:37:16,988] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:37:16,988] {logging_mixin.py:95} INFO - [2019-04-14 19:37:16,988] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:37:16,996] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:37:17,013] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.028 seconds
+[2019-04-14 19:37:59,026] {jobs.py:398} INFO - Started process (PID=20136) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:37:59,030] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:37:59,030] {logging_mixin.py:95} INFO - [2019-04-14 19:37:59,030] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:37:59,042] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:37:59,063] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.037 seconds
+[2019-04-14 19:38:41,073] {jobs.py:398} INFO - Started process (PID=20348) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:38:41,076] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:38:41,077] {logging_mixin.py:95} INFO - [2019-04-14 19:38:41,077] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:38:41,084] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:38:41,103] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 19:39:23,102] {jobs.py:398} INFO - Started process (PID=20542) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:39:23,104] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:39:23,104] {logging_mixin.py:95} INFO - [2019-04-14 19:39:23,104] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:39:23,110] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:39:23,128] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 19:40:05,146] {jobs.py:398} INFO - Started process (PID=20652) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:40:05,148] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:40:05,148] {logging_mixin.py:95} INFO - [2019-04-14 19:40:05,148] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:40:05,155] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:40:05,172] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 19:40:47,186] {jobs.py:398} INFO - Started process (PID=20726) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:40:47,192] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:40:47,192] {logging_mixin.py:95} INFO - [2019-04-14 19:40:47,192] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:40:47,201] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:40:47,233] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.047 seconds
+[2019-04-14 19:41:29,208] {jobs.py:398} INFO - Started process (PID=20823) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:41:29,210] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:41:29,211] {logging_mixin.py:95} INFO - [2019-04-14 19:41:29,211] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:41:29,221] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:41:29,246] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.038 seconds
+[2019-04-14 19:42:11,249] {jobs.py:398} INFO - Started process (PID=20892) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:42:11,252] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:42:11,252] {logging_mixin.py:95} INFO - [2019-04-14 19:42:11,252] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:42:11,260] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:42:11,282] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.032 seconds
+[2019-04-14 19:42:53,293] {jobs.py:398} INFO - Started process (PID=20964) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:42:53,296] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:42:53,296] {logging_mixin.py:95} INFO - [2019-04-14 19:42:53,296] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:42:53,304] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:42:53,349] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.056 seconds
+[2019-04-14 19:43:35,320] {jobs.py:398} INFO - Started process (PID=21022) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:43:35,324] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:43:35,324] {logging_mixin.py:95} INFO - [2019-04-14 19:43:35,324] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:43:35,335] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:43:35,357] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.037 seconds
+[2019-04-14 19:44:17,356] {jobs.py:398} INFO - Started process (PID=21100) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:44:17,359] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:44:17,359] {logging_mixin.py:95} INFO - [2019-04-14 19:44:17,359] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:44:17,368] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:44:17,912] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.556 seconds
+[2019-04-14 19:44:59,389] {jobs.py:398} INFO - Started process (PID=21156) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:44:59,392] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:44:59,393] {logging_mixin.py:95} INFO - [2019-04-14 19:44:59,392] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:44:59,401] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:44:59,424] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.035 seconds
+[2019-04-14 19:45:41,427] {jobs.py:398} INFO - Started process (PID=21295) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:45:41,431] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:45:41,431] {logging_mixin.py:95} INFO - [2019-04-14 19:45:41,431] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:45:41,443] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:45:41,463] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.036 seconds
+[2019-04-14 19:46:23,456] {jobs.py:398} INFO - Started process (PID=21385) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:46:23,459] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:46:23,459] {logging_mixin.py:95} INFO - [2019-04-14 19:46:23,459] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:46:23,468] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:46:23,486] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.030 seconds
+[2019-04-14 19:47:05,498] {jobs.py:398} INFO - Started process (PID=21485) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:47:05,501] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:47:05,502] {logging_mixin.py:95} INFO - [2019-04-14 19:47:05,502] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:47:05,513] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:47:05,536] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.038 seconds
+[2019-04-14 19:47:49,950] {jobs.py:398} INFO - Started process (PID=21805) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:47:49,958] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:47:49,958] {logging_mixin.py:95} INFO - [2019-04-14 19:47:49,958] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:47:49,994] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:47:50,053] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.104 seconds
+[2019-04-14 19:48:33,304] {jobs.py:398} INFO - Started process (PID=21978) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:48:33,307] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:48:33,308] {logging_mixin.py:95} INFO - [2019-04-14 19:48:33,308] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:48:33,316] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:48:33,339] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.035 seconds
+[2019-04-14 19:49:15,391] {jobs.py:398} INFO - Started process (PID=22149) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:49:15,393] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:49:15,394] {logging_mixin.py:95} INFO - [2019-04-14 19:49:15,394] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:49:15,403] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:49:15,429] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.039 seconds
+[2019-04-14 19:49:59,774] {jobs.py:398} INFO - Started process (PID=22317) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:49:59,777] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:49:59,779] {logging_mixin.py:95} INFO - [2019-04-14 19:49:59,778] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:49:59,788] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:49:59,806] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.032 seconds
+[2019-04-14 19:50:41,924] {jobs.py:398} INFO - Started process (PID=22494) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:50:41,930] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:50:41,930] {logging_mixin.py:95} INFO - [2019-04-14 19:50:41,930] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:50:41,943] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:50:41,964] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.039 seconds
+[2019-04-14 19:51:27,606] {jobs.py:398} INFO - Started process (PID=22764) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:51:27,610] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:51:27,611] {logging_mixin.py:95} INFO - [2019-04-14 19:51:27,611] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:51:27,617] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:51:27,632] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.026 seconds
+[2019-04-14 19:52:09,641] {jobs.py:398} INFO - Started process (PID=22819) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:52:09,648] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:52:09,649] {logging_mixin.py:95} INFO - [2019-04-14 19:52:09,649] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:52:09,656] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:52:09,679] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.038 seconds
+[2019-04-14 19:52:51,677] {jobs.py:398} INFO - Started process (PID=22878) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:52:51,680] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:52:51,681] {logging_mixin.py:95} INFO - [2019-04-14 19:52:51,680] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:52:51,690] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:52:51,714] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.037 seconds
+[2019-04-14 19:53:33,721] {jobs.py:398} INFO - Started process (PID=22933) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:53:33,723] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:53:33,723] {logging_mixin.py:95} INFO - [2019-04-14 19:53:33,723] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:53:33,729] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:53:33,746] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.024 seconds
+[2019-04-14 19:54:15,759] {jobs.py:398} INFO - Started process (PID=22988) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:54:15,762] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:54:15,763] {logging_mixin.py:95} INFO - [2019-04-14 19:54:15,763] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:54:15,772] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:54:15,792] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.033 seconds
+[2019-04-14 19:54:57,807] {jobs.py:398} INFO - Started process (PID=23082) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:54:57,811] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:54:57,812] {logging_mixin.py:95} INFO - [2019-04-14 19:54:57,812] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:54:57,823] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:54:57,854] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.047 seconds
+[2019-04-14 19:55:40,481] {jobs.py:398} INFO - Started process (PID=23140) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:55:40,483] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:55:40,483] {logging_mixin.py:95} INFO - [2019-04-14 19:55:40,483] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:55:40,490] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:55:40,508] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.027 seconds
+[2019-04-14 19:59:38,566] {jobs.py:398} INFO - Started process (PID=23496) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:59:38,572] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py for tasks to queue
+[2019-04-14 19:59:38,573] {logging_mixin.py:95} INFO - [2019-04-14 19:59:38,573] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:59:38,666] {jobs.py:1723} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py
+[2019-04-14 19:59:38,833] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/hello_world.py took 0.267 seconds

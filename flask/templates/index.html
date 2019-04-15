@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Hottest Topic on Reddit</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+		<style>
+			.submit-sec {
+				margin-top: 15px;
+			}
+			section {
+				margin-top: 30px;
+			}
+			
+			.showdata {
+				width: 50%;
+			}
+
+			.showsearch {
+				margin-bottom: 20px;
+			}
+
+                        a {
+                               color: black;
+                               font-weight: 500;
+                        }
+			
+		</style>
+  		<script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Movies~~</h1>
+			<section class="showsearch">
+                                
+				<form action="/show" method="get">
+					<div class="form-group">
+						<label for="usertimestamp">User name, please:</label>
+						<input type="text" class="form-control" name="user" id="usertimestamp">
+						<div class="submit-sec">
+							<input id="done-btn" type="submit" value="Show Recommendations" class="btn btn-primary">
+						</div>
+					</div>
+				</form>
+
+				<form action="/history" method="get">
+					<div class="form-group">
+						<label for="usertimestamp">User name, please:</label>
+						<input type="text" class="form-control" name="user" id="usertimestamp">
+						<div class="submit-sec">
+							<input id="done-btn" type="submit" value="Show Rating History" class="btn btn-primary">
+						</div>
+					</div>
+				</form>
+				<form action="/new_rating" method="get">
+					<div class="form-group">
+							<label for="usertimestamp">User name:</label>
+							<input type="text" class="form-control" name="user" id="usertimestamp">
+							<!-- <label for="usertimestamp">Movie:</label>
+							<input type="text" class="form-control" name="movie" id="usertimestamp"> -->
+							<br>
+
+							<label>Movie :</label>
+							<br>
+							<select name="movie" width="200px">
+							{% for x in movie_list %}
+							<option value="{{ x }}"{% if loop.first %} SELECTED{% endif %}>{{ x }}</option>
+							{% endfor %}
+							</select>
+							<br>
+
+							<label for="usertimestamp">Rating:</label>
+							<input type="number" min="0" step="0.01" class="form-control" name="rating" id="usertimestamp">
+
+							<div class="submit-sec">
+							<input id="done-btn" type="submit" value="Enter new rating" class="btn btn-primary">
+						</div>
+					</div>
+				</form
+			</section>
+<!--
+			<section>
+				<form action="/graph" method="get">
+					<div class="form-group">
+						<label for="usergraph">For user relationship graph, Please type your user name:</label>
+						<input type="text" class="form-control" name="user" id="usergraph">
+						<div class="submit-sec">
+							<input id="done-btn" type="submit" value="Show Me" class="btn btn-primary">
+						</div>
+					</div>
+				</form>
+			</section>
+-->
+
+
+
+		</div>
+	</body>
+</html>

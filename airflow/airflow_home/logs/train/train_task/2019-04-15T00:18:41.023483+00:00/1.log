@@ -1,0 +1,88 @@
+[2019-04-14 20:18:55,644] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.train_task 2019-04-15T00:18:41.023483+00:00 [queued]>
+[2019-04-14 20:18:55,652] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.train_task 2019-04-15T00:18:41.023483+00:00 [queued]>
+[2019-04-14 20:18:55,655] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 20:18:55,656] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-04-14 20:18:55,657] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 20:18:55,673] {__init__.py:1374} INFO - Executing <Task(PythonOperator): train_task> on 2019-04-15T00:18:41.023483+00:00
+[2019-04-14 20:18:55,673] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'train', 'train_task', '2019-04-15T00:18:41.023483+00:00', '--job_id', '22', '--raw', '-sd', 'DAGS_FOLDER/train.py', '--cfg_path', '/tmp/tmpxlrctnie']
+[2019-04-14 20:18:56,035] {base_task_runner.py:101} INFO - Job 22: Subtask train_task /home/xiuqi/.local/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/xiuqi/airflow/airflow.cfg and /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-04-14 20:18:56,035] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   category=DeprecationWarning,
+[2019-04-14 20:18:56,199] {base_task_runner.py:101} INFO - Job 22: Subtask train_task [2019-04-14 20:18:56,199] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-04-14 20:18:56,391] {base_task_runner.py:101} INFO - Job 22: Subtask train_task [2019-04-14 20:18:56,391] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 20:18:56,517] {base_task_runner.py:101} INFO - Job 22: Subtask train_task [2019-04-14 20:18:56,516] {cli.py:517} INFO - Running <TaskInstance: train.train_task 2019-04-15T00:18:41.023483+00:00 [running]> on host xiuqi-debian
+[2019-04-14 20:18:56,527] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=train
+AIRFLOW_CTX_TASK_ID=train_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-15T00:18:41.023483+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-04-15T00:18:41.023483+00:00
+[2019-04-14 20:18:56,539] {__init__.py:1580} ERROR - [Errno 2] No such file or directory: '/usr/local/spark/./bin/spark-submit': '/usr/local/spark/./bin/spark-submit'
+Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+    return_value = self.execute_callable()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 11, in train_task
+    a.do()
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 30, in do
+    .config("spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.11:2.4.0") \
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 98, in _launch_gateway
+    proc = Popen(command, stdin=PIPE, preexec_fn=preexec_func, env=env)
+  File "/usr/lib/python3.7/subprocess.py", line 775, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.7/subprocess.py", line 1522, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/spark/./bin/spark-submit': '/usr/local/spark/./bin/spark-submit'
+[2019-04-14 20:18:56,540] {__init__.py:1611} INFO - Marking task as FAILED.
+[2019-04-14 20:18:57,031] {base_task_runner.py:101} INFO - Job 22: Subtask train_task Traceback (most recent call last):
+[2019-04-14 20:18:57,031] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/bin/airflow", line 32, in <module>
+[2019-04-14 20:18:57,031] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     args.func(args)
+[2019-04-14 20:18:57,031] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     return f(*args, **kwargs)
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     _run(args, dag, ti)
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     pool=args.pool,
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     return func(*args, **kwargs)
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     result = task_copy.execute(context=context)
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     return_value = self.execute_callable()
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 11, in train_task
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     a.do()
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 30, in do
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     .config("spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.11:2.4.0") \
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     sc = SparkContext.getOrCreate(sparkConf)
+[2019-04-14 20:18:57,032] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 367, in getOrCreate
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     SparkContext(conf=conf or SparkConf())
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 133, in __init__
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     SparkContext._gateway = gateway or launch_gateway(conf)
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     return _launch_gateway(conf)
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 98, in _launch_gateway
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     proc = Popen(command, stdin=PIPE, preexec_fn=preexec_func, env=env)
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/usr/lib/python3.7/subprocess.py", line 775, in __init__
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     restore_signals, start_new_session)
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task   File "/usr/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task     raise child_exception_type(errno_num, err_msg, err_filename)
+[2019-04-14 20:18:57,033] {base_task_runner.py:101} INFO - Job 22: Subtask train_task FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/spark/./bin/spark-submit': '/usr/local/spark/./bin/spark-submit'
+[2019-04-14 20:19:00,639] {logging_mixin.py:95} INFO - [2019-04-14 20:19:00,638] {jobs.py:2562} INFO - Task exited with return code 1

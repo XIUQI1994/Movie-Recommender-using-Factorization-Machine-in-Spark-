@@ -1,0 +1,61 @@
+[2019-04-14 22:44:51,183] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.update_w 2019-04-15T02:41:42.456337+00:00 [queued]>
+[2019-04-14 22:44:51,196] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.update_w 2019-04-15T02:41:42.456337+00:00 [queued]>
+[2019-04-14 22:44:51,196] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 22:44:51,196] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-04-14 22:44:51,196] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 22:44:51,210] {__init__.py:1374} INFO - Executing <Task(PythonOperator): update_w> on 2019-04-15T02:41:42.456337+00:00
+[2019-04-14 22:44:51,211] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'train', 'update_w', '2019-04-15T02:41:42.456337+00:00', '--job_id', '38', '--raw', '-sd', 'DAGS_FOLDER/train.py', '--cfg_path', '/tmp/tmprdsztn1c']
+[2019-04-14 22:44:51,708] {base_task_runner.py:101} INFO - Job 38: Subtask update_w /home/xiuqi/.local/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/xiuqi/airflow/airflow.cfg and /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-04-14 22:44:51,709] {base_task_runner.py:101} INFO - Job 38: Subtask update_w   category=DeprecationWarning,
+[2019-04-14 22:44:51,912] {base_task_runner.py:101} INFO - Job 38: Subtask update_w [2019-04-14 22:44:51,911] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-04-14 22:44:52,125] {base_task_runner.py:101} INFO - Job 38: Subtask update_w [2019-04-14 22:44:52,125] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 22:44:53,011] {base_task_runner.py:101} INFO - Job 38: Subtask update_w Ivy Default Cache set to: /home/xiuqi/.ivy2/cache
+[2019-04-14 22:44:53,011] {base_task_runner.py:101} INFO - Job 38: Subtask update_w The jars for the packages stored in: /home/xiuqi/.ivy2/jars
+[2019-04-14 22:44:53,050] {base_task_runner.py:101} INFO - Job 38: Subtask update_w :: loading settings :: url = jar:file:/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2019-04-14 22:44:53,218] {base_task_runner.py:101} INFO - Job 38: Subtask update_w org.mongodb.spark#mongo-spark-connector_2.11 added as a dependency
+[2019-04-14 22:44:53,220] {base_task_runner.py:101} INFO - Job 38: Subtask update_w :: resolving dependencies :: org.apache.spark#spark-submit-parent-aef25654-e59f-4f94-a185-665c1fdb9fb2;1.0
+[2019-04-14 22:44:53,220] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	confs: [default]
+[2019-04-14 22:44:53,439] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	found org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 in spark-list
+[2019-04-14 22:44:53,482] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	found org.mongodb#mongo-java-driver;3.9.0 in spark-list
+[2019-04-14 22:44:53,509] {base_task_runner.py:101} INFO - Job 38: Subtask update_w :: resolution report :: resolve 282ms :: artifacts dl 6ms
+[2019-04-14 22:44:53,509] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	:: modules in use:
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	org.mongodb#mongo-java-driver;3.9.0 from spark-list in [default]
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 from spark-list in [default]
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	---------------------------------------------------------------------
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	|                  |            modules            ||   artifacts   |
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	---------------------------------------------------------------------
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+[2019-04-14 22:44:53,510] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	---------------------------------------------------------------------
+[2019-04-14 22:44:53,515] {base_task_runner.py:101} INFO - Job 38: Subtask update_w :: retrieving :: org.apache.spark#spark-submit-parent-aef25654-e59f-4f94-a185-665c1fdb9fb2
+[2019-04-14 22:44:53,515] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	confs: [default]
+[2019-04-14 22:44:53,525] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 	0 artifacts copied, 2 already retrieved (0kB/10ms)
+[2019-04-14 22:44:53,598] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:53 WARN Utils: Your hostname, xiuqi-debian resolves to a loopback address: 127.0.1.1; using 192.168.1.191 instead (on interface wlp2s0)
+[2019-04-14 22:44:53,599] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:53 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2019-04-14 22:44:53,874] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2019-04-14 22:44:54,313] {base_task_runner.py:101} INFO - Job 38: Subtask update_w Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2019-04-14 22:44:54,313] {base_task_runner.py:101} INFO - Job 38: Subtask update_w Setting default log level to "WARN".
+[2019-04-14 22:44:54,313] {base_task_runner.py:101} INFO - Job 38: Subtask update_w To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2019-04-14 22:44:55,059] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:55 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2019-04-14 22:44:55,060] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:55 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2019-04-14 22:44:55,061] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:55 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[2019-04-14 22:44:55,061] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:55 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[2019-04-14 22:44:55,062] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:55 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+[2019-04-14 22:44:55,062] {base_task_runner.py:101} INFO - Job 38: Subtask update_w 19/04/14 22:44:55 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+[2019-04-14 22:44:56,711] {base_task_runner.py:101} INFO - Job 38: Subtask update_w [2019-04-14 22:44:56,711] {cli.py:517} INFO - Running <TaskInstance: train.update_w 2019-04-15T02:41:42.456337+00:00 [running]> on host xiuqi-debian
+[2019-04-14 22:44:56,724] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=train
+AIRFLOW_CTX_TASK_ID=update_w
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-15T02:41:42.456337+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-04-15T02:41:42.456337+00:00
+[2019-04-14 22:44:57,416] {python_operator.py:113} INFO - Done. Returned value was: (array([[-0.28981794,  0.74724076,  0.06368867,  0.09039876,  0.29990013],
+       [-0.19393959,  0.07461893, -0.2649202 , -0.22180613,  0.32479788],
+       [-0.30200849, -0.107554  , -0.18572048, -0.2004258 , -0.12137185],
+       ...,
+       [ 0.35832579,  0.2738219 ,  0.09997638,  0.24818615,  0.2626147 ],
+       [ 0.084014  ,  0.17090881,  0.45633375,  0.49403336,  0.09623358],
+       [ 0.06679733,  0.80402696,  0.39490614,  0.37024977,  0.22379932]]), array([-0.11558507,  0.21610212,  0.55364331, ...,  0.66987704,
+        0.98823554,  0.32470205]))
+[2019-04-14 22:45:01,193] {logging_mixin.py:95} INFO - [2019-04-14 22:45:01,193] {jobs.py:2562} INFO - Task exited with return code 0

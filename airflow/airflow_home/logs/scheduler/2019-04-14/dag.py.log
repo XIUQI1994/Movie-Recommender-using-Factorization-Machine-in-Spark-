@@ -1,0 +1,21 @@
+[2019-04-14 17:52:56,487] {jobs.py:398} INFO - Started process (PID=9424) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:52:56,489] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py for tasks to queue
+[2019-04-14 17:52:56,489] {logging_mixin.py:95} INFO - [2019-04-14 17:52:56,489] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:52:56,614] {jobs.py:1723} INFO - DAG(s) dict_keys(['intervaltrain']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:52:56,621] {logging_mixin.py:95} INFO - [2019-04-14 17:52:56,621] {__init__.py:4113} INFO - Creating ORM DAG for intervaltrain
+[2019-04-14 17:52:56,635] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py took 0.148 seconds
+[2019-04-14 17:53:38,529] {jobs.py:398} INFO - Started process (PID=9481) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:53:38,531] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py for tasks to queue
+[2019-04-14 17:53:38,531] {logging_mixin.py:95} INFO - [2019-04-14 17:53:38,531] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:53:38,640] {jobs.py:1723} INFO - DAG(s) dict_keys(['intervaltrain']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:53:38,661] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py took 0.131 seconds
+[2019-04-14 17:54:20,572] {jobs.py:398} INFO - Started process (PID=9543) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:54:20,578] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py for tasks to queue
+[2019-04-14 17:54:20,579] {logging_mixin.py:95} INFO - [2019-04-14 17:54:20,579] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:54:20,580] {jobs.py:1725} WARNING - No viable dags retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:54:20,580] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py took 0.009 seconds
+[2019-04-14 17:55:02,612] {jobs.py:398} INFO - Started process (PID=9629) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:55:02,615] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py for tasks to queue
+[2019-04-14 17:55:02,615] {logging_mixin.py:95} INFO - [2019-04-14 17:55:02,615] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:55:02,616] {jobs.py:1725} WARNING - No viable dags retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py
+[2019-04-14 17:55:02,617] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/dag.py took 0.005 seconds

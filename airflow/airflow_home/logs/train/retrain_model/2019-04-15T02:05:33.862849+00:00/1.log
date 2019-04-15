@@ -1,0 +1,664 @@
+[2019-04-14 22:06:26,499] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.retrain_model 2019-04-15T02:05:33.862849+00:00 [queued]>
+[2019-04-14 22:06:26,506] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.retrain_model 2019-04-15T02:05:33.862849+00:00 [queued]>
+[2019-04-14 22:06:26,506] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 22:06:26,507] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-04-14 22:06:26,507] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 22:06:26,518] {__init__.py:1374} INFO - Executing <Task(PythonOperator): retrain_model> on 2019-04-15T02:05:33.862849+00:00
+[2019-04-14 22:06:26,519] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'train', 'retrain_model', '2019-04-15T02:05:33.862849+00:00', '--job_id', '29', '--raw', '-sd', 'DAGS_FOLDER/train.py', '--cfg_path', '/tmp/tmpe3lfzkw2']
+[2019-04-14 22:06:26,880] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model /home/xiuqi/.local/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/xiuqi/airflow/airflow.cfg and /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-04-14 22:06:26,880] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   category=DeprecationWarning,
+[2019-04-14 22:06:27,027] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model [2019-04-14 22:06:27,027] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-04-14 22:06:27,214] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model [2019-04-14 22:06:27,213] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 22:06:27,357] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model [2019-04-14 22:06:27,357] {cli.py:517} INFO - Running <TaskInstance: train.retrain_model 2019-04-15T02:05:33.862849+00:00 [running]> on host xiuqi-debian
+[2019-04-14 22:06:27,370] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=train
+AIRFLOW_CTX_TASK_ID=retrain_model
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-15T02:05:33.862849+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-04-15T02:05:33.862849+00:00
+[2019-04-14 22:06:28,220] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model Ivy Default Cache set to: /home/xiuqi/.ivy2/cache
+[2019-04-14 22:06:28,220] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model The jars for the packages stored in: /home/xiuqi/.ivy2/jars
+[2019-04-14 22:06:28,254] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model :: loading settings :: url = jar:file:/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2019-04-14 22:06:28,397] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model org.mongodb.spark#mongo-spark-connector_2.11 added as a dependency
+[2019-04-14 22:06:28,399] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model :: resolving dependencies :: org.apache.spark#spark-submit-parent-f185184b-bf78-41bf-9326-270cce14b80d;1.0
+[2019-04-14 22:06:28,399] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	confs: [default]
+[2019-04-14 22:06:28,578] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	found org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 in spark-list
+[2019-04-14 22:06:28,607] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	found org.mongodb#mongo-java-driver;3.9.0 in spark-list
+[2019-04-14 22:06:28,628] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model :: resolution report :: resolve 225ms :: artifacts dl 4ms
+[2019-04-14 22:06:28,628] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	:: modules in use:
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	org.mongodb#mongo-java-driver;3.9.0 from spark-list in [default]
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 from spark-list in [default]
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	---------------------------------------------------------------------
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	|                  |            modules            ||   artifacts   |
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	---------------------------------------------------------------------
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+[2019-04-14 22:06:28,629] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	---------------------------------------------------------------------
+[2019-04-14 22:06:28,637] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model :: retrieving :: org.apache.spark#spark-submit-parent-f185184b-bf78-41bf-9326-270cce14b80d
+[2019-04-14 22:06:28,638] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	confs: [default]
+[2019-04-14 22:06:28,646] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	0 artifacts copied, 2 already retrieved (0kB/10ms)
+[2019-04-14 22:06:28,716] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:28 WARN Utils: Your hostname, xiuqi-debian resolves to a loopback address: 127.0.1.1; using 192.168.1.191 instead (on interface wlp2s0)
+[2019-04-14 22:06:28,717] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:28 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2019-04-14 22:06:29,077] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2019-04-14 22:06:29,574] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2019-04-14 22:06:29,575] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model Setting default log level to "WARN".
+[2019-04-14 22:06:29,575] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2019-04-14 22:06:30,579] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:30 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2019-04-14 22:06:34,281] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:34,315] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model [Stage 0:>                                                          (0 + 1) / 1]
+[2019-04-14 22:06:36,879] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model                                                                                 
+[2019-04-14 22:06:36,879] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model [Stage 1:>                                                          (0 + 1) / 1]19/04/14 22:06:37 WARN BlockManager: Putting block rdd_11_0 failed due to exception org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     process()
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     serializer.dump_stream(func(split_index, iterator), outfile)
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     vs = list(itertools.islice(iterator, batch))
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*args, **kwargs)
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+[2019-04-14 22:06:37,139] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+[2019-04-14 22:06:37,140] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model NameError: name 'total_feas' is not defined
+[2019-04-14 22:06:37,140] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model .
+[2019-04-14 22:06:37,140] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:37 WARN BlockManager: Block rdd_11_0 could not be removed as it was not found on disk or in memory
+[2019-04-14 22:06:37,140] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:37 WARN BlockManager: Putting block rdd_14_0 failed due to exception org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 22:06:37,140] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     process()
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     serializer.dump_stream(func(split_index, iterator), outfile)
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     vs = list(itertools.islice(iterator, batch))
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*args, **kwargs)
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model NameError: name 'total_feas' is not defined
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model .
+[2019-04-14 22:06:37,141] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:37 WARN BlockManager: Block rdd_14_0 could not be removed as it was not found on disk or in memory
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:37 ERROR Executor: Exception in task 0.0 in stage 1.0 (TID 1)
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     process()
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     serializer.dump_stream(func(split_index, iterator), outfile)
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     vs = list(itertools.islice(iterator, batch))
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*args, **kwargs)
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+[2019-04-14 22:06:37,149] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model NameError: name 'total_feas' is not defined
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+[2019-04-14 22:06:37,150] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 22:06:37,151] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 22:06:37,174] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:37 WARN TaskSetManager: Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     process()
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     serializer.dump_stream(func(split_index, iterator), outfile)
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     vs = list(itertools.islice(iterator, batch))
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*args, **kwargs)
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+[2019-04-14 22:06:37,175] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model NameError: name 'total_feas' is not defined
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,176] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 22:06:37,177] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 22:06:37,178] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 22:06:37,178] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:37,179] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 19/04/14 22:06:37 ERROR TaskSetManager: Task 0 in stage 1.0 failed 1 times; aborting job
+[2019-04-14 22:06:37,199] {__init__.py:1580} ERROR - An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 1.0 failed 1 times, most recent failure: Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+    process()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+    data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+NameError: name 'total_feas' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+    process()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+    data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+NameError: name 'total_feas' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+    return_value = self.execute_callable()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 24, in retrain_model
+    return workflow.train(weights)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 66, in train
+    loss='mse')
+  File "/tmp/spark-d273c6c5-c773-4137-88bd-1d6f3b55a3eb/userFiles-b28e4d16-5734-4f17-8848-9d3380b2dfd1/fm_parallel_extend.py", line 157, in trainFM_parallel_sgd
+    nrFeat = len(train_XY.first()[0][0])
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 1378, in first
+    rs = self.take(1)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 1360, in take
+    res = self.context.runJob(self, takeUpToNumLeft, p)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 1069, in runJob
+    sock_info = self._jvm.PythonRDD.runJob(self._jsc.sc(), mappedRDD._jrdd, partitions)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/sql/utils.py", line 63, in deco
+    return f(*a, **kw)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 1.0 failed 1 times, most recent failure: Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+    process()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+    data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+NameError: name 'total_feas' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+    process()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+    data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+NameError: name 'total_feas' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+
+[2019-04-14 22:06:37,298] {__init__.py:1611} INFO - Marking task as FAILED.
+[2019-04-14 22:06:37,358] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model Traceback (most recent call last):
+[2019-04-14 22:06:37,358] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/bin/airflow", line 32, in <module>
+[2019-04-14 22:06:37,358] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     args.func(args)
+[2019-04-14 22:06:37,358] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-04-14 22:06:37,358] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*args, **kwargs)
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     _run(args, dag, ti)
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     pool=args.pool,
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return func(*args, **kwargs)
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     result = task_copy.execute(context=context)
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return_value = self.execute_callable()
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 24, in retrain_model
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return workflow.train(weights)
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 66, in train
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     loss='mse')
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/tmp/spark-d273c6c5-c773-4137-88bd-1d6f3b55a3eb/userFiles-b28e4d16-5734-4f17-8848-9d3380b2dfd1/fm_parallel_extend.py", line 157, in trainFM_parallel_sgd
+[2019-04-14 22:06:37,359] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     nrFeat = len(train_XY.first()[0][0])
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 1378, in first
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     rs = self.take(1)
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 1360, in take
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     res = self.context.runJob(self, takeUpToNumLeft, p)
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/context.py", line 1069, in runJob
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     sock_info = self._jvm.PythonRDD.runJob(self._jsc.sc(), mappedRDD._jrdd, partitions)
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/java_gateway.py", line 1257, in __call__
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     answer, self.gateway_client, self.target_id, self.name)
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/sql/utils.py", line 63, in deco
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*a, **kw)
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/protocol.py", line 328, in get_return_value
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     format(target_id, ".", name), value)
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.runJob.
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model : org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 1.0 failed 1 times, most recent failure: Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     process()
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     serializer.dump_stream(func(split_index, iterator), outfile)
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     vs = list(itertools.islice(iterator, batch))
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+[2019-04-14 22:06:37,360] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*args, **kwargs)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model NameError: name 'total_feas' is not defined
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,361] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model Driver stacktrace:
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1889)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1877)
+[2019-04-14 22:06:37,362] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1876)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1876)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at scala.Option.foreach(Option.scala:257)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2110)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2059)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2048)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD$.runJob(PythonRDD.scala:153)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.runJob(PythonRDD.scala)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2019-04-14 22:06:37,363] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at py4j.Gateway.invoke(Gateway.java:282)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 377, in main
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     process()
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 372, in process
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     serializer.dump_stream(func(split_index, iterator), outfile)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 393, in dump_stream
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     vs = list(itertools.islice(iterator, batch))
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/python/lib/pyspark.zip/pyspark/util.py", line 99, in wrapper
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     return f(*args, **kwargs)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 52, in <lambda>
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model     data = df.rdd.map(lambda x: change_labelPoint(x, total_feas))
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model NameError: name 'total_feas' is not defined
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 22:06:37,364] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIterator(MemoryStore.scala:221)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.memory.MemoryStore.putIteratorAsBytes(MemoryStore.scala:349)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.ZippedPartitionsRDD2.compute(ZippedPartitionsRDD.scala:89)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:337)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD$$anonfun$7.apply(RDD.scala:335)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1182)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager$$anonfun$doPutIterator$1.apply(BlockManager.scala:1156)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPut(BlockManager.scala:1091)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.doPutIterator(BlockManager.scala:1156)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.storage.BlockManager.getOrElseUpdate(BlockManager.scala:882)
+[2019-04-14 22:06:37,365] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.getOrCompute(RDD.scala:335)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:286)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:324)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:288)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:403)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:409)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 22:06:37,366] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 	... 1 more
+[2019-04-14 22:06:37,851] {base_task_runner.py:101} INFO - Job 29: Subtask retrain_model 
+[2019-04-14 22:06:41,505] {logging_mixin.py:95} INFO - [2019-04-14 22:06:41,505] {jobs.py:2562} INFO - Task exited with return code 1

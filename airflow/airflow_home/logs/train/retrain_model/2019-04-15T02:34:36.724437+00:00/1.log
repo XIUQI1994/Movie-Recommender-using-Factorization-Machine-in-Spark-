@@ -1,0 +1,84 @@
+[2019-04-14 22:36:33,273] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.retrain_model 2019-04-15T02:34:36.724437+00:00 [queued]>
+[2019-04-14 22:36:33,288] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.retrain_model 2019-04-15T02:34:36.724437+00:00 [queued]>
+[2019-04-14 22:36:33,288] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 22:36:33,288] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-04-14 22:36:33,288] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 22:36:33,304] {__init__.py:1374} INFO - Executing <Task(PythonOperator): retrain_model> on 2019-04-15T02:34:36.724437+00:00
+[2019-04-14 22:36:33,305] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'train', 'retrain_model', '2019-04-15T02:34:36.724437+00:00', '--job_id', '33', '--raw', '-sd', 'DAGS_FOLDER/train.py', '--cfg_path', '/tmp/tmp44uyo0mz']
+[2019-04-14 22:36:33,702] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model /home/xiuqi/.local/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/xiuqi/airflow/airflow.cfg and /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-04-14 22:36:33,702] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model   category=DeprecationWarning,
+[2019-04-14 22:36:33,881] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model [2019-04-14 22:36:33,881] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-04-14 22:36:34,072] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model [2019-04-14 22:36:34,072] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 22:36:35,063] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model Ivy Default Cache set to: /home/xiuqi/.ivy2/cache
+[2019-04-14 22:36:35,063] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model The jars for the packages stored in: /home/xiuqi/.ivy2/jars
+[2019-04-14 22:36:35,094] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model :: loading settings :: url = jar:file:/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2019-04-14 22:36:35,238] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model org.mongodb.spark#mongo-spark-connector_2.11 added as a dependency
+[2019-04-14 22:36:35,239] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model :: resolving dependencies :: org.apache.spark#spark-submit-parent-26850cd9-e079-4b68-a122-2efbbd32db21;1.0
+[2019-04-14 22:36:35,239] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	confs: [default]
+[2019-04-14 22:36:35,415] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	found org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 in spark-list
+[2019-04-14 22:36:35,444] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	found org.mongodb#mongo-java-driver;3.9.0 in spark-list
+[2019-04-14 22:36:35,465] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model :: resolution report :: resolve 219ms :: artifacts dl 5ms
+[2019-04-14 22:36:35,465] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	:: modules in use:
+[2019-04-14 22:36:35,465] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	org.mongodb#mongo-java-driver;3.9.0 from spark-list in [default]
+[2019-04-14 22:36:35,465] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 from spark-list in [default]
+[2019-04-14 22:36:35,466] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	---------------------------------------------------------------------
+[2019-04-14 22:36:35,466] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	|                  |            modules            ||   artifacts   |
+[2019-04-14 22:36:35,466] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2019-04-14 22:36:35,466] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	---------------------------------------------------------------------
+[2019-04-14 22:36:35,466] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+[2019-04-14 22:36:35,466] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	---------------------------------------------------------------------
+[2019-04-14 22:36:35,470] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model :: retrieving :: org.apache.spark#spark-submit-parent-26850cd9-e079-4b68-a122-2efbbd32db21
+[2019-04-14 22:36:35,470] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	confs: [default]
+[2019-04-14 22:36:35,477] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 	0 artifacts copied, 2 already retrieved (0kB/6ms)
+[2019-04-14 22:36:35,536] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:35 WARN Utils: Your hostname, xiuqi-debian resolves to a loopback address: 127.0.1.1; using 192.168.1.191 instead (on interface wlp2s0)
+[2019-04-14 22:36:35,536] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:35 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2019-04-14 22:36:35,880] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:35 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2019-04-14 22:36:36,325] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2019-04-14 22:36:36,325] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model Setting default log level to "WARN".
+[2019-04-14 22:36:36,325] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2019-04-14 22:36:37,578] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:37 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2019-04-14 22:36:37,581] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:37 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2019-04-14 22:36:37,582] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:37 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[2019-04-14 22:36:37,583] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:37 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[2019-04-14 22:36:37,584] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:37 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+[2019-04-14 22:36:37,584] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 19/04/14 22:36:37 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+[2019-04-14 22:36:39,636] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model [2019-04-14 22:36:39,635] {cli.py:517} INFO - Running <TaskInstance: train.retrain_model 2019-04-15T02:34:36.724437+00:00 [running]> on host xiuqi-debian
+[2019-04-14 22:36:39,651] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=train
+AIRFLOW_CTX_TASK_ID=retrain_model
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-15T02:34:36.724437+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-04-15T02:34:36.724437+00:00
+[2019-04-14 22:36:49,132] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 
+[2019-04-14 22:36:49,581] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model [Stage 1:>                                                          (0 + 1) / 1]
+[2019-04-14 22:36:49,875] {logging_mixin.py:95} INFO - (4.0,(147077,[16,3103,3768,5550,8008,8555,8572,147075],[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]))
+[2019-04-14 22:36:50,530] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model                                                                                 
+[2019-04-14 22:36:50,530] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 
+[2019-04-14 22:36:50,628] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model [Stage 3:>                                                          (0 + 1) / 1]
+[2019-04-14 22:36:50,636] {logging_mixin.py:95} INFO - (147076, 5)
+[2019-04-14 22:36:50,636] {logging_mixin.py:95} INFO - 147077
+[2019-04-14 22:36:51,731] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model                                                                                 
+[2019-04-14 22:36:51,731] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model 
+[2019-04-14 22:36:51,741] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model [Stage 5:>                                                          (0 + 1) / 1]
+[2019-04-14 22:36:51,747] {logging_mixin.py:95} INFO - iter 	time 	train_loss 	val_loss
+[2019-04-14 22:36:51,747] {logging_mixin.py:95} INFO - 0 	0 	3.178473
+[2019-04-14 22:36:52,701] {logging_mixin.py:95} INFO - 1 	0 	2.293478
+[2019-04-14 22:36:52,735] {python_operator.py:113} INFO - Done. Returned value was: (array([[-0.28981794,  0.74724076,  0.06368867,  0.09039876,  0.29990013],
+       [-0.19393959,  0.07461893, -0.2649202 , -0.22180613,  0.32479788],
+       [-0.30200849, -0.107554  , -0.18572048, -0.2004258 , -0.12137185],
+       ...,
+       [ 0.35832579,  0.2738219 ,  0.09997638,  0.24818615,  0.2626147 ],
+       [ 0.09701905,  0.16153129,  0.46299984,  0.49539998,  0.09082222],
+       [ 0.06205198,  0.80526829,  0.3965993 ,  0.36902871,  0.22584507]]), array([-0.11558507,  0.21610212,  0.55364331, ...,  0.64883191,
+        0.99395364,  0.29333616]))
+[2019-04-14 22:36:53,289] {logging_mixin.py:95} INFO - [2019-04-14 22:36:53,289] {jobs.py:2630} WARNING - State of this instance has been externally set to success. Taking the poison pill.
+[2019-04-14 22:36:53,300] {helpers.py:281} INFO - Sending Signals.SIGTERM to GPID 16980
+[2019-04-14 22:36:53,436] {helpers.py:263} INFO - Process psutil.Process(pid=17103, status='terminated') (17103) terminated with exit code None
+[2019-04-14 22:36:53,609] {helpers.py:263} INFO - Process psutil.Process(pid=17151, status='terminated') (17151) terminated with exit code None
+[2019-04-14 22:36:53,609] {helpers.py:263} INFO - Process psutil.Process(pid=17075, status='terminated') (17075) terminated with exit code None
+[2019-04-14 22:36:53,609] {helpers.py:263} INFO - Process psutil.Process(pid=17139, status='terminated') (17139) terminated with exit code None
+[2019-04-14 22:36:53,609] {helpers.py:263} INFO - Process psutil.Process(pid=16980, status='terminated') (16980) terminated with exit code -15
+[2019-04-14 22:36:53,804] {base_task_runner.py:101} INFO - Job 33: Subtask retrain_model                                                                                 
+[2019-04-14 22:36:53,822] {helpers.py:263} INFO - Process psutil.Process(pid=16991, status='terminated') (16991) terminated with exit code None
+[2019-04-14 22:36:53,823] {logging_mixin.py:95} INFO - [2019-04-14 22:36:53,823] {jobs.py:2562} INFO - Task exited with return code 0

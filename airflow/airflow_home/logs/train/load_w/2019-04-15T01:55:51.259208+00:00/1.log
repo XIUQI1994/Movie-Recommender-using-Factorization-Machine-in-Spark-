@@ -1,0 +1,56 @@
+[2019-04-14 21:56:26,493] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.load_w 2019-04-15T01:55:51.259208+00:00 [queued]>
+[2019-04-14 21:56:26,498] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.load_w 2019-04-15T01:55:51.259208+00:00 [queued]>
+[2019-04-14 21:56:26,498] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 21:56:26,498] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-04-14 21:56:26,498] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 21:56:26,511] {__init__.py:1374} INFO - Executing <Task(PythonOperator): load_w> on 2019-04-15T01:55:51.259208+00:00
+[2019-04-14 21:56:26,511] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'train', 'load_w', '2019-04-15T01:55:51.259208+00:00', '--job_id', '27', '--raw', '-sd', 'DAGS_FOLDER/train.py', '--cfg_path', '/tmp/tmp7eech93a']
+[2019-04-14 21:56:26,903] {base_task_runner.py:101} INFO - Job 27: Subtask load_w /home/xiuqi/.local/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/xiuqi/airflow/airflow.cfg and /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-04-14 21:56:26,904] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   category=DeprecationWarning,
+[2019-04-14 21:56:27,079] {base_task_runner.py:101} INFO - Job 27: Subtask load_w [2019-04-14 21:56:27,079] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-04-14 21:56:27,273] {base_task_runner.py:101} INFO - Job 27: Subtask load_w [2019-04-14 21:56:27,273] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 21:56:27,391] {base_task_runner.py:101} INFO - Job 27: Subtask load_w [2019-04-14 21:56:27,390] {cli.py:517} INFO - Running <TaskInstance: train.load_w 2019-04-15T01:55:51.259208+00:00 [running]> on host xiuqi-debian
+[2019-04-14 21:56:27,402] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=train
+AIRFLOW_CTX_TASK_ID=load_w
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-15T01:55:51.259208+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-04-15T01:55:51.259208+00:00
+[2019-04-14 21:56:27,405] {__init__.py:1580} ERROR - name 'sse' is not defined
+Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+    return_value = self.execute_callable()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 18, in load_w
+    return workflow.load_weights()
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 25, in load_weights
+    df = sse.read.format("com.mongodb.spark.sql.DefaultSource").option(
+NameError: name 'sse' is not defined
+[2019-04-14 21:56:27,407] {__init__.py:1611} INFO - Marking task as FAILED.
+[2019-04-14 21:56:27,883] {base_task_runner.py:101} INFO - Job 27: Subtask load_w Traceback (most recent call last):
+[2019-04-14 21:56:27,883] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/bin/airflow", line 32, in <module>
+[2019-04-14 21:56:27,883] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     args.func(args)
+[2019-04-14 21:56:27,883] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-04-14 21:56:27,883] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     return f(*args, **kwargs)
+[2019-04-14 21:56:27,883] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     _run(args, dag, ti)
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     pool=args.pool,
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     return func(*args, **kwargs)
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     result = task_copy.execute(context=context)
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     return_value = self.execute_callable()
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 18, in load_w
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     return workflow.load_weights()
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 25, in load_weights
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w     df = sse.read.format("com.mongodb.spark.sql.DefaultSource").option(
+[2019-04-14 21:56:27,884] {base_task_runner.py:101} INFO - Job 27: Subtask load_w NameError: name 'sse' is not defined
+[2019-04-14 21:56:31,490] {logging_mixin.py:95} INFO - [2019-04-14 21:56:31,490] {jobs.py:2562} INFO - Task exited with return code 1

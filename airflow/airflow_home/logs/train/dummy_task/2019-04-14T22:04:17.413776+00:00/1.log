@@ -1,0 +1,15 @@
+[2019-04-14 18:04:43,594] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.dummy_task 2019-04-14T22:04:17.413776+00:00 [queued]>
+[2019-04-14 18:04:43,599] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.dummy_task 2019-04-14T22:04:17.413776+00:00 [queued]>
+[2019-04-14 18:04:43,600] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 18:04:43,600] {__init__.py:1354} INFO - Starting attempt 1 of 4
+[2019-04-14 18:04:43,601] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 18:04:43,620] {__init__.py:1374} INFO - Executing <Task(DummyOperator): dummy_task> on 2019-04-14T22:04:17.413776+00:00
+[2019-04-14 18:04:43,620] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'train', 'dummy_task', '2019-04-14T22:04:17.413776+00:00', '--job_id', '9', '--raw', '-sd', 'DAGS_FOLDER/train.py', '--cfg_path', '/tmp/tmpu26v74ty']
+[2019-04-14 18:04:44,001] {base_task_runner.py:101} INFO - Job 9: Subtask dummy_task /home/xiuqi/.local/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/xiuqi/airflow/airflow.cfg and /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-04-14 18:04:44,001] {base_task_runner.py:101} INFO - Job 9: Subtask dummy_task   category=DeprecationWarning,
+[2019-04-14 18:04:44,152] {base_task_runner.py:101} INFO - Job 9: Subtask dummy_task [2019-04-14 18:04:44,152] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-04-14 18:04:44,346] {base_task_runner.py:101} INFO - Job 9: Subtask dummy_task [2019-04-14 18:04:44,346] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:04:44,482] {base_task_runner.py:101} INFO - Job 9: Subtask dummy_task [2019-04-14 18:04:44,481] {cli.py:517} INFO - Running <TaskInstance: train.dummy_task 2019-04-14T22:04:17.413776+00:00 [running]> on host xiuqi-debian
+[2019-04-14 18:04:48,596] {logging_mixin.py:95} INFO - [2019-04-14 18:04:48,596] {jobs.py:2562} INFO - Task exited with return code 0

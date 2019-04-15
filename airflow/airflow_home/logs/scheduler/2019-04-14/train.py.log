@@ -1,0 +1,970 @@
+[2019-04-14 17:55:46,416] {jobs.py:398} INFO - Started process (PID=9731) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:55:46,418] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 17:55:46,419] {logging_mixin.py:95} INFO - [2019-04-14 17:55:46,419] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:55:46,672] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:55:46,684] {logging_mixin.py:95} INFO - [2019-04-14 17:55:46,684] {__init__.py:4113} INFO - Creating ORM DAG for train
+[2019-04-14 17:55:46,716] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.300 seconds
+[2019-04-14 17:56:28,448] {jobs.py:398} INFO - Started process (PID=9787) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:56:28,450] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 17:56:28,450] {logging_mixin.py:95} INFO - [2019-04-14 17:56:28,450] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:56:28,561] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:56:28,585] {jobs.py:1446} INFO - Processing train
+[2019-04-14 17:56:28,612] {jobs.py:1450} INFO - Created <DagRun train @ 2019-04-13 12:00:00+00:00: scheduled__2019-04-13T12:00:00+00:00, externally triggered: False>
+[2019-04-14 17:56:28,615] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-13 12:00:00+00:00: scheduled__2019-04-13T12:00:00+00:00, externally triggered: False>
+[2019-04-14 17:56:28,621] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 21:56:04.211634+00:00: manual__2019-04-14T21:56:04.211634+00:00, externally triggered: True>
+[2019-04-14 17:56:28,641] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 17:56:28,645] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.dummy_task 2019-04-13 12:00:00+00:00 [scheduled]> in ORM
+[2019-04-14 17:56:28,649] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.dummy_task 2019-04-14 21:56:04.211634+00:00 [scheduled]> in ORM
+[2019-04-14 17:56:28,664] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.216 seconds
+[2019-04-14 17:57:22,022] {jobs.py:398} INFO - Started process (PID=9872) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:57:22,023] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 17:57:22,024] {logging_mixin.py:95} INFO - [2019-04-14 17:57:22,024] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:57:22,145] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:57:22,169] {jobs.py:1446} INFO - Processing train
+[2019-04-14 17:57:22,180] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-13 12:00:00+00:00: scheduled__2019-04-13T12:00:00+00:00, externally triggered: False>
+[2019-04-14 17:57:22,189] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 21:56:04.211634+00:00: manual__2019-04-14T21:56:04.211634+00:00, externally triggered: True>
+[2019-04-14 17:57:22,213] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 17:57:22,218] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.train_task 2019-04-13 12:00:00+00:00 [scheduled]> in ORM
+[2019-04-14 17:57:22,226] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.train_task 2019-04-14 21:56:04.211634+00:00 [scheduled]> in ORM
+[2019-04-14 17:57:22,240] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.218 seconds
+[2019-04-14 17:58:25,695] {jobs.py:398} INFO - Started process (PID=10181) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:58:25,697] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 17:58:25,698] {logging_mixin.py:95} INFO - [2019-04-14 17:58:25,698] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:58:25,809] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:58:25,834] {jobs.py:1446} INFO - Processing train
+[2019-04-14 17:58:25,848] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-13 12:00:00+00:00: scheduled__2019-04-13T12:00:00+00:00, externally triggered: False>
+[2019-04-14 17:58:25,857] {logging_mixin.py:95} INFO - [2019-04-14 17:58:25,857] {__init__.py:4846} INFO - Marking run <DagRun train @ 2019-04-13 12:00:00+00:00: scheduled__2019-04-13T12:00:00+00:00, externally triggered: False> failed
+[2019-04-14 17:58:25,863] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 21:56:04.211634+00:00: manual__2019-04-14T21:56:04.211634+00:00, externally triggered: True>
+[2019-04-14 17:58:25,871] {logging_mixin.py:95} INFO - [2019-04-14 17:58:25,870] {__init__.py:4846} INFO - Marking run <DagRun train @ 2019-04-14 21:56:04.211634+00:00: manual__2019-04-14T21:56:04.211634+00:00, externally triggered: True> failed
+[2019-04-14 17:58:25,875] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 17:58:25,877] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.182 seconds
+[2019-04-14 17:59:07,744] {jobs.py:398} INFO - Started process (PID=10277) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:59:07,747] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 17:59:07,747] {logging_mixin.py:95} INFO - [2019-04-14 17:59:07,747] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:59:07,909] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:59:07,941] {jobs.py:1446} INFO - Processing train
+[2019-04-14 17:59:07,956] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 17:59:07,960] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.216 seconds
+[2019-04-14 17:59:49,771] {jobs.py:398} INFO - Started process (PID=10348) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:59:49,773] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 17:59:49,773] {logging_mixin.py:95} INFO - [2019-04-14 17:59:49,773] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:59:49,889] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 17:59:49,918] {jobs.py:1446} INFO - Processing train
+[2019-04-14 17:59:49,939] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 17:59:49,943] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.173 seconds
+[2019-04-14 18:00:31,806] {jobs.py:398} INFO - Started process (PID=10406) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:00:31,808] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:00:31,808] {logging_mixin.py:95} INFO - [2019-04-14 18:00:31,808] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:00:31,911] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:00:31,935] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:00:31,946] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:00:31,949] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.143 seconds
+[2019-04-14 18:01:13,848] {jobs.py:398} INFO - Started process (PID=10475) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:01:13,851] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:01:13,851] {logging_mixin.py:95} INFO - [2019-04-14 18:01:13,851] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:01:13,975] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:01:14,011] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:01:14,027] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:01:14,030] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.182 seconds
+[2019-04-14 18:01:55,880] {jobs.py:398} INFO - Started process (PID=10550) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:01:55,882] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:01:55,882] {logging_mixin.py:95} INFO - [2019-04-14 18:01:55,882] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:01:56,003] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:01:56,027] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:01:56,040] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:01:56,043] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.163 seconds
+[2019-04-14 18:02:37,921] {jobs.py:398} INFO - Started process (PID=10606) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:02:37,923] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:02:37,923] {logging_mixin.py:95} INFO - [2019-04-14 18:02:37,923] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:02:38,035] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:02:38,059] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:02:38,071] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:02:38,074] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.152 seconds
+[2019-04-14 18:03:19,962] {jobs.py:398} INFO - Started process (PID=10737) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:03:19,964] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:03:19,965] {logging_mixin.py:95} INFO - [2019-04-14 18:03:19,965] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:03:20,092] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:03:20,121] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:03:20,134] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:03:20,137] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.175 seconds
+[2019-04-14 18:03:58,459] {jobs.py:398} INFO - Started process (PID=10816) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:03:58,461] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:03:58,461] {logging_mixin.py:95} INFO - [2019-04-14 18:03:58,461] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:03:58,602] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:03:58,639] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:03:58,654] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:03:58,658] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.199 seconds
+[2019-04-14 18:04:40,500] {jobs.py:398} INFO - Started process (PID=10895) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:04:40,502] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:04:40,502] {logging_mixin.py:95} INFO - [2019-04-14 18:04:40,502] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:04:40,618] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:04:40,644] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:04:40,656] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 22:04:17.413776+00:00: manual__2019-04-14T22:04:17.413776+00:00, externally triggered: True>
+[2019-04-14 18:04:40,672] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:04:40,676] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.dummy_task 2019-04-14 22:04:17.413776+00:00 [scheduled]> in ORM
+[2019-04-14 18:04:40,688] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.188 seconds
+[2019-04-14 18:05:27,813] {jobs.py:398} INFO - Started process (PID=11015) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:05:27,816] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:05:27,816] {logging_mixin.py:95} INFO - [2019-04-14 18:05:27,816] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:05:28,016] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:05:28,044] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:05:28,065] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 22:04:17.413776+00:00: manual__2019-04-14T22:04:17.413776+00:00, externally triggered: True>
+[2019-04-14 18:05:28,087] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:05:28,090] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.train_task 2019-04-14 22:04:17.413776+00:00 [scheduled]> in ORM
+[2019-04-14 18:05:28,102] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.288 seconds
+[2019-04-14 18:06:25,311] {jobs.py:398} INFO - Started process (PID=11275) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:06:25,314] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:06:25,314] {logging_mixin.py:95} INFO - [2019-04-14 18:06:25,314] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:06:25,439] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:06:25,460] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:06:25,473] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 22:04:17.413776+00:00: manual__2019-04-14T22:04:17.413776+00:00, externally triggered: True>
+[2019-04-14 18:06:25,480] {logging_mixin.py:95} INFO - [2019-04-14 18:06:25,480] {__init__.py:4846} INFO - Marking run <DagRun train @ 2019-04-14 22:04:17.413776+00:00: manual__2019-04-14T22:04:17.413776+00:00, externally triggered: True> failed
+[2019-04-14 18:06:25,485] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:06:25,488] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.177 seconds
+[2019-04-14 18:07:07,357] {jobs.py:398} INFO - Started process (PID=11331) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:07:07,359] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:07:07,359] {logging_mixin.py:95} INFO - [2019-04-14 18:07:07,359] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:07:07,465] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:07:07,488] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:07:07,501] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:07:07,504] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.147 seconds
+[2019-04-14 18:07:43,591] {jobs.py:398} INFO - Started process (PID=11456) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:07:43,593] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:07:43,593] {logging_mixin.py:95} INFO - [2019-04-14 18:07:43,593] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:07:43,750] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:07:43,777] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:07:43,791] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:07:43,794] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.204 seconds
+[2019-04-14 18:08:25,626] {jobs.py:398} INFO - Started process (PID=11541) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:08:25,627] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:08:25,628] {logging_mixin.py:95} INFO - [2019-04-14 18:08:25,628] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:08:25,743] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:08:25,789] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:08:25,800] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 22:07:55.180012+00:00: manual__2019-04-14T22:07:55.180012+00:00, externally triggered: True>
+[2019-04-14 18:08:25,816] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:08:25,819] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.train_task 2019-04-14 22:07:55.180012+00:00 [scheduled]> in ORM
+[2019-04-14 18:08:25,830] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.204 seconds
+[2019-04-14 18:09:23,215] {jobs.py:398} INFO - Started process (PID=11859) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:09:23,218] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:09:23,218] {logging_mixin.py:95} INFO - [2019-04-14 18:09:23,218] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:09:23,356] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:09:23,383] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:09:23,394] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 22:07:55.180012+00:00: manual__2019-04-14T22:07:55.180012+00:00, externally triggered: True>
+[2019-04-14 18:09:23,415] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:09:23,418] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.203 seconds
+[2019-04-14 18:10:05,250] {jobs.py:398} INFO - Started process (PID=11911) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:10:05,252] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:10:05,252] {logging_mixin.py:95} INFO - [2019-04-14 18:10:05,252] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:10:05,359] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:10:05,386] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:10:05,400] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 22:07:55.180012+00:00: manual__2019-04-14T22:07:55.180012+00:00, externally triggered: True>
+[2019-04-14 18:10:05,408] {logging_mixin.py:95} INFO - [2019-04-14 18:10:05,407] {__init__.py:4846} INFO - Marking run <DagRun train @ 2019-04-14 22:07:55.180012+00:00: manual__2019-04-14T22:07:55.180012+00:00, externally triggered: True> failed
+[2019-04-14 18:10:05,412] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:10:05,415] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.165 seconds
+[2019-04-14 18:10:47,291] {jobs.py:398} INFO - Started process (PID=11971) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:10:47,293] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:10:47,293] {logging_mixin.py:95} INFO - [2019-04-14 18:10:47,293] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:10:47,401] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:10:47,425] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:10:47,438] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:10:47,441] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.151 seconds
+[2019-04-14 18:11:29,328] {jobs.py:398} INFO - Started process (PID=12079) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:11:29,329] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:11:29,330] {logging_mixin.py:95} INFO - [2019-04-14 18:11:29,330] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:11:29,453] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:11:29,483] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:11:29,502] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:11:29,506] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.178 seconds
+[2019-04-14 18:12:11,370] {jobs.py:398} INFO - Started process (PID=12178) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:12:11,373] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:12:11,373] {logging_mixin.py:95} INFO - [2019-04-14 18:12:11,373] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:12:11,511] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:12:11,539] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:12:11,556] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:12:11,559] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.189 seconds
+[2019-04-14 18:12:53,406] {jobs.py:398} INFO - Started process (PID=12236) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:12:53,408] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:12:53,408] {logging_mixin.py:95} INFO - [2019-04-14 18:12:53,408] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:12:53,519] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:12:53,546] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:12:53,558] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:12:53,560] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.154 seconds
+[2019-04-14 18:13:35,441] {jobs.py:398} INFO - Started process (PID=12371) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:13:35,442] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:13:35,443] {logging_mixin.py:95} INFO - [2019-04-14 18:13:35,443] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:13:35,579] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:13:36,025] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:13:36,038] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:13:36,041] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.601 seconds
+[2019-04-14 18:14:17,477] {jobs.py:398} INFO - Started process (PID=12535) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:14:17,479] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:14:17,479] {logging_mixin.py:95} INFO - [2019-04-14 18:14:17,479] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:14:17,601] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:14:17,626] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:14:17,638] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:14:17,640] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.163 seconds
+[2019-04-14 18:14:59,518] {jobs.py:398} INFO - Started process (PID=12608) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:14:59,522] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:14:59,522] {logging_mixin.py:95} INFO - [2019-04-14 18:14:59,522] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:14:59,664] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:14:59,697] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:14:59,715] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:14:59,722] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.205 seconds
+[2019-04-14 18:15:41,552] {jobs.py:398} INFO - Started process (PID=12666) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:15:41,555] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:15:41,555] {logging_mixin.py:95} INFO - [2019-04-14 18:15:41,555] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:15:41,711] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:15:41,743] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:15:41,764] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:15:41,768] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.216 seconds
+[2019-04-14 18:16:23,593] {jobs.py:398} INFO - Started process (PID=12721) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:16:23,597] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:16:23,597] {logging_mixin.py:95} INFO - [2019-04-14 18:16:23,597] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:16:23,742] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:16:23,769] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:16:23,781] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:16:23,784] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.191 seconds
+[2019-04-14 18:17:05,631] {jobs.py:398} INFO - Started process (PID=12794) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:17:05,634] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:17:05,634] {logging_mixin.py:95} INFO - [2019-04-14 18:17:05,634] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:17:05,864] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:17:05,892] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:17:05,906] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:17:05,910] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.278 seconds
+[2019-04-14 18:17:47,665] {jobs.py:398} INFO - Started process (PID=12892) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:17:47,668] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:17:47,668] {logging_mixin.py:95} INFO - [2019-04-14 18:17:47,668] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:17:47,788] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:17:47,811] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:17:47,822] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:17:47,825] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.159 seconds
+[2019-04-14 18:18:29,707] {jobs.py:398} INFO - Started process (PID=12995) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:18:29,711] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:18:29,711] {logging_mixin.py:95} INFO - [2019-04-14 18:18:29,711] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:18:29,900] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:18:29,927] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:18:29,941] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:18:29,946] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.238 seconds
+[2019-04-14 18:19:11,745] {jobs.py:398} INFO - Started process (PID=13079) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:19:11,748] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:19:11,749] {logging_mixin.py:95} INFO - [2019-04-14 18:19:11,749] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:19:11,893] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:19:11,917] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:19:11,931] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:19:11,934] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.188 seconds
+[2019-04-14 18:19:53,769] {jobs.py:398} INFO - Started process (PID=13205) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:19:53,771] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:19:53,771] {logging_mixin.py:95} INFO - [2019-04-14 18:19:53,771] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:19:53,897] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:19:53,921] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:19:53,934] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:19:53,936] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.167 seconds
+[2019-04-14 18:20:35,802] {jobs.py:398} INFO - Started process (PID=13298) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:20:35,805] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:20:35,805] {logging_mixin.py:95} INFO - [2019-04-14 18:20:35,805] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:20:35,915] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:20:35,939] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:20:35,949] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:20:35,952] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.150 seconds
+[2019-04-14 18:21:17,839] {jobs.py:398} INFO - Started process (PID=13382) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:21:17,841] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:21:17,841] {logging_mixin.py:95} INFO - [2019-04-14 18:21:17,841] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:21:17,954] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:21:17,976] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:21:17,989] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:21:17,992] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.154 seconds
+[2019-04-14 18:21:59,870] {jobs.py:398} INFO - Started process (PID=13619) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:21:59,871] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:21:59,872] {logging_mixin.py:95} INFO - [2019-04-14 18:21:59,872] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:21:59,976] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:21:59,998] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:22:00,013] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:22:00,016] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.146 seconds
+[2019-04-14 18:22:41,924] {jobs.py:398} INFO - Started process (PID=13706) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:22:41,928] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:22:41,928] {logging_mixin.py:95} INFO - [2019-04-14 18:22:41,928] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:22:42,088] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:22:42,121] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:22:42,139] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:22:42,144] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.220 seconds
+[2019-04-14 18:23:23,946] {jobs.py:398} INFO - Started process (PID=13801) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:23:23,949] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:23:23,949] {logging_mixin.py:95} INFO - [2019-04-14 18:23:23,949] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:23:23,955] {logging_mixin.py:95} INFO - [2019-04-14 18:23:23,954] {__init__.py:416} ERROR - Failed to import: /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 4, in <module>
+    from interval_train import train
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 3, in <module>
+    from pyspark import SparkContext, SparkConf
+ImportError: cannot import name 'SparkContext' from 'pyspark' (unknown location)
+[2019-04-14 18:23:23,956] {jobs.py:1725} WARNING - No viable dags retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:23:23,969] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.023 seconds
+[2019-04-14 18:24:09,222] {jobs.py:398} INFO - Started process (PID=13904) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:24:09,228] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:24:09,228] {logging_mixin.py:95} INFO - [2019-04-14 18:24:09,228] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:24:09,236] {logging_mixin.py:95} INFO - [2019-04-14 18:24:09,235] {__init__.py:416} ERROR - Failed to import: /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 4, in <module>
+    from interval_train import train
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 3, in <module>
+    from pyspark import SparkContext, SparkConf
+ImportError: cannot import name 'SparkContext' from 'pyspark' (unknown location)
+[2019-04-14 18:24:09,236] {jobs.py:1725} WARNING - No viable dags retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:24:09,309] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.087 seconds
+[2019-04-14 18:24:51,471] {jobs.py:398} INFO - Started process (PID=13969) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:24:51,473] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:24:51,473] {logging_mixin.py:95} INFO - [2019-04-14 18:24:51,473] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:24:51,628] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:24:51,662] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:24:51,679] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:24:51,686] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.216 seconds
+[2019-04-14 18:25:33,506] {jobs.py:398} INFO - Started process (PID=14046) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:25:33,509] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:25:33,509] {logging_mixin.py:95} INFO - [2019-04-14 18:25:33,509] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:25:33,748] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:25:33,796] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:25:33,818] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:25:33,836] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.330 seconds
+[2019-04-14 18:26:15,542] {jobs.py:398} INFO - Started process (PID=14242) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:26:15,545] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:26:15,545] {logging_mixin.py:95} INFO - [2019-04-14 18:26:15,545] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:26:15,679] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:26:15,710] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:26:15,728] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:26:15,732] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.189 seconds
+[2019-04-14 18:26:57,577] {jobs.py:398} INFO - Started process (PID=14351) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:26:57,579] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:26:57,579] {logging_mixin.py:95} INFO - [2019-04-14 18:26:57,579] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:26:57,693] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:26:57,717] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:26:57,735] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:26:57,737] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.160 seconds
+[2019-04-14 18:27:39,611] {jobs.py:398} INFO - Started process (PID=14435) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:27:39,612] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:27:39,613] {logging_mixin.py:95} INFO - [2019-04-14 18:27:39,612] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:27:39,772] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:27:39,803] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:27:39,819] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:27:39,822] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.212 seconds
+[2019-04-14 18:28:21,646] {jobs.py:398} INFO - Started process (PID=14520) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:28:21,648] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:28:21,649] {logging_mixin.py:95} INFO - [2019-04-14 18:28:21,649] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:28:21,779] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:28:21,805] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:28:21,818] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:28:21,820] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.174 seconds
+[2019-04-14 18:29:03,683] {jobs.py:398} INFO - Started process (PID=14617) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:29:03,685] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:29:03,686] {logging_mixin.py:95} INFO - [2019-04-14 18:29:03,685] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:29:03,826] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:29:04,241] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:29:04,260] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:29:04,264] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.581 seconds
+[2019-04-14 18:29:45,720] {jobs.py:398} INFO - Started process (PID=14823) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:29:45,722] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:29:45,722] {logging_mixin.py:95} INFO - [2019-04-14 18:29:45,722] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:29:45,834] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:29:45,856] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:29:45,869] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:29:45,871] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.151 seconds
+[2019-04-14 18:30:27,753] {jobs.py:398} INFO - Started process (PID=14901) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:30:27,756] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:30:27,756] {logging_mixin.py:95} INFO - [2019-04-14 18:30:27,756] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:30:27,860] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:30:27,885] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:30:27,898] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:30:27,900] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.147 seconds
+[2019-04-14 18:31:09,789] {jobs.py:398} INFO - Started process (PID=15003) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:31:09,791] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:31:09,791] {logging_mixin.py:95} INFO - [2019-04-14 18:31:09,791] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:31:09,912] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:31:09,934] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:31:09,947] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:31:09,949] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.160 seconds
+[2019-04-14 18:31:51,827] {jobs.py:398} INFO - Started process (PID=15082) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:31:51,830] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:31:51,830] {logging_mixin.py:95} INFO - [2019-04-14 18:31:51,830] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:31:51,946] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:31:51,970] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:31:51,983] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:31:51,986] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.159 seconds
+[2019-04-14 18:32:33,876] {jobs.py:398} INFO - Started process (PID=15177) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:32:33,878] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:32:33,879] {logging_mixin.py:95} INFO - [2019-04-14 18:32:33,879] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:32:33,991] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:32:34,017] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:32:34,030] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:32:34,033] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.157 seconds
+[2019-04-14 18:33:15,897] {jobs.py:398} INFO - Started process (PID=15246) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:33:15,899] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:33:15,900] {logging_mixin.py:95} INFO - [2019-04-14 18:33:15,899] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:33:15,997] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:33:16,021] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:33:16,033] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:33:16,036] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.139 seconds
+[2019-04-14 18:33:57,943] {jobs.py:398} INFO - Started process (PID=15324) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:33:57,945] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:33:57,945] {logging_mixin.py:95} INFO - [2019-04-14 18:33:57,945] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:33:58,056] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:33:58,079] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:33:58,091] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:33:58,094] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.151 seconds
+[2019-04-14 18:34:39,974] {jobs.py:398} INFO - Started process (PID=15397) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:34:39,976] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:34:39,976] {logging_mixin.py:95} INFO - [2019-04-14 18:34:39,976] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:34:40,089] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:34:40,111] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:34:40,122] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:34:40,125] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.150 seconds
+[2019-04-14 18:35:22,011] {jobs.py:398} INFO - Started process (PID=15465) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:35:22,015] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:35:22,016] {logging_mixin.py:95} INFO - [2019-04-14 18:35:22,016] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:35:22,162] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:35:22,189] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:35:22,200] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:35:22,202] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.191 seconds
+[2019-04-14 18:36:04,055] {jobs.py:398} INFO - Started process (PID=15545) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:36:04,058] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:36:04,059] {logging_mixin.py:95} INFO - [2019-04-14 18:36:04,059] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:36:04,163] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:36:04,185] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:36:04,195] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:36:04,198] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.142 seconds
+[2019-04-14 18:36:46,091] {jobs.py:398} INFO - Started process (PID=15612) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:36:46,093] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:36:46,093] {logging_mixin.py:95} INFO - [2019-04-14 18:36:46,093] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:36:46,198] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:36:46,223] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:36:46,238] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:36:46,240] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.150 seconds
+[2019-04-14 18:37:28,122] {jobs.py:398} INFO - Started process (PID=15682) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:37:28,126] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:37:28,126] {logging_mixin.py:95} INFO - [2019-04-14 18:37:28,126] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:37:28,246] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:37:28,269] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:37:28,284] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:37:28,287] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.165 seconds
+[2019-04-14 18:38:10,156] {jobs.py:398} INFO - Started process (PID=15755) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:38:10,159] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:38:10,159] {logging_mixin.py:95} INFO - [2019-04-14 18:38:10,159] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:38:10,276] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:38:10,301] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:38:10,316] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:38:10,319] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.162 seconds
+[2019-04-14 18:38:52,196] {jobs.py:398} INFO - Started process (PID=15825) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:38:52,198] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:38:52,199] {logging_mixin.py:95} INFO - [2019-04-14 18:38:52,199] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:38:52,321] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:38:52,347] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:38:52,359] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:38:52,362] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.166 seconds
+[2019-04-14 18:39:34,234] {jobs.py:398} INFO - Started process (PID=15971) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:39:34,237] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:39:34,238] {logging_mixin.py:95} INFO - [2019-04-14 18:39:34,237] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:39:34,369] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:39:34,393] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:39:34,404] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:39:34,406] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.173 seconds
+[2019-04-14 18:40:16,266] {jobs.py:398} INFO - Started process (PID=16042) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:40:16,269] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:40:16,269] {logging_mixin.py:95} INFO - [2019-04-14 18:40:16,269] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:40:16,382] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:40:16,412] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:40:16,427] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:40:16,430] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.164 seconds
+[2019-04-14 18:40:58,304] {jobs.py:398} INFO - Started process (PID=16114) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:40:58,307] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:40:58,307] {logging_mixin.py:95} INFO - [2019-04-14 18:40:58,307] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:40:58,429] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:40:58,461] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:40:58,479] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:40:58,484] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.180 seconds
+[2019-04-14 18:41:40,345] {jobs.py:398} INFO - Started process (PID=16178) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:41:40,348] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:41:40,349] {logging_mixin.py:95} INFO - [2019-04-14 18:41:40,349] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:41:40,511] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:41:40,540] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:41:40,553] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:41:40,556] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.211 seconds
+[2019-04-14 18:42:22,394] {jobs.py:398} INFO - Started process (PID=16249) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:42:22,396] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:42:22,397] {logging_mixin.py:95} INFO - [2019-04-14 18:42:22,397] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:42:22,505] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:42:22,529] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:42:22,541] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:42:22,544] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.150 seconds
+[2019-04-14 18:43:04,424] {jobs.py:398} INFO - Started process (PID=16317) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:43:04,426] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:43:04,427] {logging_mixin.py:95} INFO - [2019-04-14 18:43:04,427] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:43:04,533] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:43:04,558] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:43:04,571] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:43:04,574] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.150 seconds
+[2019-04-14 18:43:46,453] {jobs.py:398} INFO - Started process (PID=16384) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:43:46,455] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:43:46,455] {logging_mixin.py:95} INFO - [2019-04-14 18:43:46,455] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:43:46,564] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:43:46,589] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:43:46,601] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:43:46,604] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.151 seconds
+[2019-04-14 18:44:28,485] {jobs.py:398} INFO - Started process (PID=16459) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:44:28,487] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:44:28,487] {logging_mixin.py:95} INFO - [2019-04-14 18:44:28,487] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:44:28,586] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:44:28,614] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:44:28,630] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:44:28,634] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.148 seconds
+[2019-04-14 18:45:10,526] {jobs.py:398} INFO - Started process (PID=16531) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:45:10,530] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:45:10,531] {logging_mixin.py:95} INFO - [2019-04-14 18:45:10,530] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:45:10,676] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:45:10,705] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:45:10,718] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:45:10,728] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.202 seconds
+[2019-04-14 18:45:52,562] {jobs.py:398} INFO - Started process (PID=16598) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:45:52,563] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:45:52,563] {logging_mixin.py:95} INFO - [2019-04-14 18:45:52,563] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:45:52,668] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:45:52,691] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:45:52,705] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:45:52,708] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.146 seconds
+[2019-04-14 18:46:35,228] {jobs.py:398} INFO - Started process (PID=16667) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:46:35,230] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:46:35,230] {logging_mixin.py:95} INFO - [2019-04-14 18:46:35,230] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:46:35,331] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:46:35,354] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:46:35,366] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:46:35,369] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.140 seconds
+[2019-04-14 18:47:17,269] {jobs.py:398} INFO - Started process (PID=16733) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:47:17,272] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:47:17,273] {logging_mixin.py:95} INFO - [2019-04-14 18:47:17,273] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:47:17,411] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:47:17,437] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:47:17,448] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:47:17,450] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.182 seconds
+[2019-04-14 18:47:59,333] {jobs.py:398} INFO - Started process (PID=16802) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:47:59,335] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:47:59,335] {logging_mixin.py:95} INFO - [2019-04-14 18:47:59,335] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:47:59,454] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:47:59,478] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:47:59,491] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:47:59,494] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.161 seconds
+[2019-04-14 18:48:41,366] {jobs.py:398} INFO - Started process (PID=16878) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:48:41,370] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:48:41,370] {logging_mixin.py:95} INFO - [2019-04-14 18:48:41,370] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:48:41,547] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:48:41,577] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:48:41,593] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:48:41,596] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.230 seconds
+[2019-04-14 18:49:23,403] {jobs.py:398} INFO - Started process (PID=16944) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:49:23,407] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:49:23,407] {logging_mixin.py:95} INFO - [2019-04-14 18:49:23,407] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:49:23,532] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:49:23,565] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:49:23,582] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:49:23,586] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.184 seconds
+[2019-04-14 18:50:05,986] {jobs.py:398} INFO - Started process (PID=17007) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:50:05,988] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:50:05,988] {logging_mixin.py:95} INFO - [2019-04-14 18:50:05,988] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:50:06,098] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:50:06,122] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:50:06,135] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:50:06,137] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.151 seconds
+[2019-04-14 18:50:48,026] {jobs.py:398} INFO - Started process (PID=17080) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:50:48,029] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:50:48,030] {logging_mixin.py:95} INFO - [2019-04-14 18:50:48,030] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:50:48,185] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:50:48,215] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:50:48,228] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:50:48,230] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.204 seconds
+[2019-04-14 18:51:30,380] {jobs.py:398} INFO - Started process (PID=17147) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:51:30,382] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:51:30,382] {logging_mixin.py:95} INFO - [2019-04-14 18:51:30,382] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:51:30,481] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:51:30,512] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:51:30,529] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:51:30,533] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.153 seconds
+[2019-04-14 18:52:12,411] {jobs.py:398} INFO - Started process (PID=17218) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:52:12,413] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:52:12,414] {logging_mixin.py:95} INFO - [2019-04-14 18:52:12,413] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:52:12,531] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:52:12,554] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:52:12,567] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:52:12,570] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.159 seconds
+[2019-04-14 18:52:54,439] {jobs.py:398} INFO - Started process (PID=17290) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:52:54,441] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:52:54,441] {logging_mixin.py:95} INFO - [2019-04-14 18:52:54,441] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:52:54,558] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:52:54,584] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:52:54,595] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:52:54,598] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.159 seconds
+[2019-04-14 18:53:36,479] {jobs.py:398} INFO - Started process (PID=17359) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:53:36,482] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:53:36,482] {logging_mixin.py:95} INFO - [2019-04-14 18:53:36,482] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:53:36,600] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:53:36,627] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:53:36,642] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:53:36,646] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.166 seconds
+[2019-04-14 18:54:18,516] {jobs.py:398} INFO - Started process (PID=17423) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:54:18,517] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:54:18,518] {logging_mixin.py:95} INFO - [2019-04-14 18:54:18,517] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:54:18,616] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:54:19,327] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:54:19,342] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:54:19,346] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.831 seconds
+[2019-04-14 18:55:00,552] {jobs.py:398} INFO - Started process (PID=17494) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:55:00,554] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:55:00,555] {logging_mixin.py:95} INFO - [2019-04-14 18:55:00,555] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:55:00,666] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:55:00,692] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:55:00,704] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:55:00,711] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.159 seconds
+[2019-04-14 18:55:42,588] {jobs.py:398} INFO - Started process (PID=17560) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:55:42,591] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:55:42,591] {logging_mixin.py:95} INFO - [2019-04-14 18:55:42,591] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:55:42,711] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:55:42,737] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:55:42,750] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:55:42,753] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.165 seconds
+[2019-04-14 18:56:24,620] {jobs.py:398} INFO - Started process (PID=17624) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:56:24,622] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:56:24,622] {logging_mixin.py:95} INFO - [2019-04-14 18:56:24,622] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:56:24,723] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:56:25,350] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:56:25,360] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:56:25,363] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.743 seconds
+[2019-04-14 18:57:06,655] {jobs.py:398} INFO - Started process (PID=17697) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:57:06,657] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:57:06,657] {logging_mixin.py:95} INFO - [2019-04-14 18:57:06,657] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:57:06,756] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:57:06,780] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:57:06,793] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:57:06,796] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.141 seconds
+[2019-04-14 18:57:48,700] {jobs.py:398} INFO - Started process (PID=17761) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:57:48,702] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:57:48,702] {logging_mixin.py:95} INFO - [2019-04-14 18:57:48,702] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:57:48,819] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:57:48,843] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:57:48,856] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:57:48,858] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.159 seconds
+[2019-04-14 18:58:30,723] {jobs.py:398} INFO - Started process (PID=17826) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:58:30,725] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:58:30,725] {logging_mixin.py:95} INFO - [2019-04-14 18:58:30,725] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:58:30,852] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:58:30,877] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:58:30,890] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:58:30,893] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.170 seconds
+[2019-04-14 18:59:12,757] {jobs.py:398} INFO - Started process (PID=17901) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:59:12,758] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 18:59:12,759] {logging_mixin.py:95} INFO - [2019-04-14 18:59:12,758] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:59:12,880] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:59:12,906] {jobs.py:1446} INFO - Processing train
+[2019-04-14 18:59:12,921] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 18:59:12,923] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.167 seconds
+[2019-04-14 19:27:35,594] {jobs.py:398} INFO - Started process (PID=18356) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:27:35,597] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:27:35,598] {logging_mixin.py:95} INFO - [2019-04-14 19:27:35,598] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:27:35,735] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:27:35,764] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:27:35,782] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:27:35,786] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.192 seconds
+[2019-04-14 19:28:17,223] {jobs.py:398} INFO - Started process (PID=18445) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:28:17,226] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:28:17,226] {logging_mixin.py:95} INFO - [2019-04-14 19:28:17,226] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:28:17,343] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:28:17,374] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:28:17,393] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:28:17,396] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.173 seconds
+[2019-04-14 19:28:59,258] {jobs.py:398} INFO - Started process (PID=18856) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:28:59,263] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:28:59,263] {logging_mixin.py:95} INFO - [2019-04-14 19:28:59,263] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:28:59,373] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:28:59,397] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:28:59,409] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:28:59,411] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.153 seconds
+[2019-04-14 19:29:41,304] {jobs.py:398} INFO - Started process (PID=18916) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:29:41,306] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:29:41,307] {logging_mixin.py:95} INFO - [2019-04-14 19:29:41,307] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:29:41,442] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:29:41,467] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:29:41,479] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:29:41,482] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.178 seconds
+[2019-04-14 19:30:23,329] {jobs.py:398} INFO - Started process (PID=18971) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:30:23,332] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:30:23,332] {logging_mixin.py:95} INFO - [2019-04-14 19:30:23,332] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:30:23,483] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:30:23,510] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:30:23,523] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:30:23,526] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.197 seconds
+[2019-04-14 19:31:05,370] {jobs.py:398} INFO - Started process (PID=19091) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:31:05,374] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:31:05,374] {logging_mixin.py:95} INFO - [2019-04-14 19:31:05,374] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:31:05,517] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:31:05,551] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:31:05,569] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:31:05,574] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.204 seconds
+[2019-04-14 19:31:32,998] {jobs.py:398} INFO - Started process (PID=19175) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:31:33,000] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:31:33,000] {logging_mixin.py:95} INFO - [2019-04-14 19:31:33,000] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:31:33,212] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:31:33,267] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:31:33,286] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:31:33,293] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.296 seconds
+[2019-04-14 19:32:15,028] {jobs.py:398} INFO - Started process (PID=19230) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:32:15,031] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:32:15,031] {logging_mixin.py:95} INFO - [2019-04-14 19:32:15,031] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:32:15,170] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:32:15,199] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:32:15,213] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 23:31:39.607798+00:00: manual__2019-04-14T23:31:39.607798+00:00, externally triggered: True>
+[2019-04-14 19:32:15,235] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:32:15,240] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.train_task 2019-04-14 23:31:39.607798+00:00 [scheduled]> in ORM
+[2019-04-14 19:32:15,253] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.224 seconds
+[2019-04-14 19:33:17,331] {jobs.py:398} INFO - Started process (PID=19469) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:33:17,337] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:33:17,337] {logging_mixin.py:95} INFO - [2019-04-14 19:33:17,337] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:33:17,473] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:33:17,494] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:33:17,505] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 23:31:39.607798+00:00: manual__2019-04-14T23:31:39.607798+00:00, externally triggered: True>
+[2019-04-14 19:33:17,524] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:33:17,526] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.194 seconds
+[2019-04-14 19:33:59,363] {jobs.py:398} INFO - Started process (PID=19547) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:33:59,365] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:33:59,365] {logging_mixin.py:95} INFO - [2019-04-14 19:33:59,365] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:33:59,474] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:33:59,496] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:33:59,507] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 23:31:39.607798+00:00: manual__2019-04-14T23:31:39.607798+00:00, externally triggered: True>
+[2019-04-14 19:33:59,516] {logging_mixin.py:95} INFO - [2019-04-14 19:33:59,516] {__init__.py:4846} INFO - Marking run <DagRun train @ 2019-04-14 23:31:39.607798+00:00: manual__2019-04-14T23:31:39.607798+00:00, externally triggered: True> failed
+[2019-04-14 19:33:59,522] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:33:59,524] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.161 seconds
+[2019-04-14 19:35:18,941] {jobs.py:398} INFO - Started process (PID=19708) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:35:18,943] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:35:18,943] {logging_mixin.py:95} INFO - [2019-04-14 19:35:18,943] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:35:19,065] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:35:19,087] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:35:19,100] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 23:34:58.713652+00:00: manual__2019-04-14T23:34:58.713652+00:00, externally triggered: True>
+[2019-04-14 19:35:19,120] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:35:19,124] {jobs.py:1787} INFO - Creating / updating <TaskInstance: train.train_task 2019-04-14 23:34:58.713652+00:00 [scheduled]> in ORM
+[2019-04-14 19:35:19,137] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.196 seconds
+[2019-04-14 19:36:06,925] {jobs.py:398} INFO - Started process (PID=19805) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:36:06,929] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:36:06,929] {logging_mixin.py:95} INFO - [2019-04-14 19:36:06,929] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:36:07,076] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:36:07,110] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:36:07,129] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 23:34:58.713652+00:00: manual__2019-04-14T23:34:58.713652+00:00, externally triggered: True>
+[2019-04-14 19:36:07,157] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:36:07,161] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.236 seconds
+[2019-04-14 19:36:48,968] {jobs.py:398} INFO - Started process (PID=19878) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:36:48,970] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:36:48,970] {logging_mixin.py:95} INFO - [2019-04-14 19:36:48,970] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:36:49,146] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:36:49,174] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:36:49,187] {jobs.py:921} INFO - Examining DAG run <DagRun train @ 2019-04-14 23:34:58.713652+00:00: manual__2019-04-14T23:34:58.713652+00:00, externally triggered: True>
+[2019-04-14 19:36:49,194] {logging_mixin.py:95} INFO - [2019-04-14 19:36:49,194] {__init__.py:4846} INFO - Marking run <DagRun train @ 2019-04-14 23:34:58.713652+00:00: manual__2019-04-14T23:34:58.713652+00:00, externally triggered: True> failed
+[2019-04-14 19:36:49,200] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:36:49,203] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.236 seconds
+[2019-04-14 19:37:30,999] {jobs.py:398} INFO - Started process (PID=19958) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:37:31,004] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:37:31,005] {logging_mixin.py:95} INFO - [2019-04-14 19:37:31,004] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:37:31,235] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:37:31,268] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:37:31,291] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:37:31,296] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.297 seconds
+[2019-04-14 19:38:13,037] {jobs.py:398} INFO - Started process (PID=20170) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:38:13,038] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:38:13,038] {logging_mixin.py:95} INFO - [2019-04-14 19:38:13,038] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:38:13,162] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:38:13,193] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:38:13,209] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:38:13,212] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.176 seconds
+[2019-04-14 19:38:55,086] {jobs.py:398} INFO - Started process (PID=20417) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:38:55,094] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:38:55,096] {logging_mixin.py:95} INFO - [2019-04-14 19:38:55,095] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:38:55,282] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:38:55,312] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:38:55,328] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:38:55,331] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.248 seconds
+[2019-04-14 19:39:37,115] {jobs.py:398} INFO - Started process (PID=20564) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:39:37,117] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:39:37,117] {logging_mixin.py:95} INFO - [2019-04-14 19:39:37,117] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:39:37,266] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:39:37,293] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:39:37,304] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:39:37,307] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.192 seconds
+[2019-04-14 19:40:19,154] {jobs.py:398} INFO - Started process (PID=20669) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:40:19,156] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:40:19,156] {logging_mixin.py:95} INFO - [2019-04-14 19:40:19,156] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:40:19,278] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:40:19,304] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:40:19,316] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:40:19,318] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.165 seconds
+[2019-04-14 19:41:01,183] {jobs.py:398} INFO - Started process (PID=20760) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:41:01,185] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:41:01,185] {logging_mixin.py:95} INFO - [2019-04-14 19:41:01,185] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:41:01,389] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:41:01,428] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:41:01,443] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:41:01,446] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.263 seconds
+[2019-04-14 19:41:43,229] {jobs.py:398} INFO - Started process (PID=20846) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:41:43,232] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:41:43,233] {logging_mixin.py:95} INFO - [2019-04-14 19:41:43,233] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:41:43,367] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:41:43,391] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:41:43,406] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:41:43,409] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.180 seconds
+[2019-04-14 19:42:25,261] {jobs.py:398} INFO - Started process (PID=20912) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:42:25,263] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:42:25,264] {logging_mixin.py:95} INFO - [2019-04-14 19:42:25,264] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:42:25,400] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:42:25,424] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:42:25,436] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:42:25,439] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.178 seconds
+[2019-04-14 19:43:07,295] {jobs.py:398} INFO - Started process (PID=20986) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:43:07,297] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:43:07,297] {logging_mixin.py:95} INFO - [2019-04-14 19:43:07,297] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:43:07,405] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:43:07,429] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:43:07,441] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:43:07,444] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.149 seconds
+[2019-04-14 19:43:49,330] {jobs.py:398} INFO - Started process (PID=21041) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:43:49,331] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:43:49,332] {logging_mixin.py:95} INFO - [2019-04-14 19:43:49,332] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:43:49,448] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:43:49,473] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:43:49,486] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:43:49,490] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.160 seconds
+[2019-04-14 19:44:31,366] {jobs.py:398} INFO - Started process (PID=21116) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:44:31,368] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:44:31,369] {logging_mixin.py:95} INFO - [2019-04-14 19:44:31,369] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:44:31,487] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:44:31,511] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:44:31,525] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:44:31,527] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.162 seconds
+[2019-04-14 19:45:13,400] {jobs.py:398} INFO - Started process (PID=21174) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:45:13,402] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:45:13,403] {logging_mixin.py:95} INFO - [2019-04-14 19:45:13,403] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:45:13,510] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:45:13,532] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:45:13,544] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:45:13,547] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.146 seconds
+[2019-04-14 19:45:55,437] {jobs.py:398} INFO - Started process (PID=21333) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:45:55,439] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:45:55,439] {logging_mixin.py:95} INFO - [2019-04-14 19:45:55,439] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:45:55,564] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:45:55,588] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:45:55,600] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:45:55,603] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.166 seconds
+[2019-04-14 19:46:37,476] {jobs.py:398} INFO - Started process (PID=21416) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:46:37,478] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:46:37,478] {logging_mixin.py:95} INFO - [2019-04-14 19:46:37,478] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:46:37,587] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:46:37,609] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:46:37,622] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:46:37,625] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.149 seconds
+[2019-04-14 19:47:19,508] {jobs.py:398} INFO - Started process (PID=21557) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:47:19,511] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:47:19,511] {logging_mixin.py:95} INFO - [2019-04-14 19:47:19,511] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:47:19,755] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:47:19,797] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:47:19,822] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:47:19,834] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.325 seconds
+[2019-04-14 19:48:05,286] {jobs.py:398} INFO - Started process (PID=21901) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:48:05,290] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:48:05,291] {logging_mixin.py:95} INFO - [2019-04-14 19:48:05,291] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:48:05,409] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:48:05,436] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:48:05,450] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:48:05,453] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.167 seconds
+[2019-04-14 19:48:47,317] {jobs.py:398} INFO - Started process (PID=21996) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:48:47,320] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:48:47,320] {logging_mixin.py:95} INFO - [2019-04-14 19:48:47,320] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:48:47,426] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:48:47,937] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:48:47,950] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:48:47,953] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.636 seconds
+[2019-04-14 19:49:29,383] {jobs.py:398} INFO - Started process (PID=22276) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:49:29,386] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:49:29,386] {logging_mixin.py:95} INFO - [2019-04-14 19:49:29,386] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:49:31,621] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:49:32,248] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:49:32,333] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:49:32,337] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 2.954 seconds
+[2019-04-14 19:50:13,894] {jobs.py:398} INFO - Started process (PID=22341) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:50:13,899] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:50:13,899] {logging_mixin.py:95} INFO - [2019-04-14 19:50:13,899] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:50:14,072] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:50:14,096] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:50:14,108] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:50:14,111] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.218 seconds
+[2019-04-14 19:50:57,815] {jobs.py:398} INFO - Started process (PID=22611) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:50:57,854] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:50:57,854] {logging_mixin.py:95} INFO - [2019-04-14 19:50:57,854] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:50:59,505] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:50:59,543] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:50:59,557] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:50:59,560] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 1.746 seconds
+[2019-04-14 19:51:41,616] {jobs.py:398} INFO - Started process (PID=22782) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:51:41,619] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:51:41,620] {logging_mixin.py:95} INFO - [2019-04-14 19:51:41,620] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:51:41,872] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:51:41,921] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:51:41,934] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:51:41,936] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.320 seconds
+[2019-04-14 19:52:23,657] {jobs.py:398} INFO - Started process (PID=22839) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:52:23,660] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:52:23,661] {logging_mixin.py:95} INFO - [2019-04-14 19:52:23,660] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:52:23,800] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:52:23,822] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:52:23,837] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:52:23,840] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.183 seconds
+[2019-04-14 19:53:05,690] {jobs.py:398} INFO - Started process (PID=22894) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:53:05,691] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:53:05,692] {logging_mixin.py:95} INFO - [2019-04-14 19:53:05,692] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:53:05,800] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:53:05,827] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:53:05,840] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:53:05,843] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.153 seconds
+[2019-04-14 19:53:47,727] {jobs.py:398} INFO - Started process (PID=22950) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:53:47,730] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:53:47,730] {logging_mixin.py:95} INFO - [2019-04-14 19:53:47,730] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:53:47,866] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:53:47,888] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:53:47,899] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:53:47,901] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.175 seconds
+[2019-04-14 19:54:29,784] {jobs.py:398} INFO - Started process (PID=23036) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:54:29,790] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:54:29,794] {logging_mixin.py:95} INFO - [2019-04-14 19:54:29,794] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:54:30,183] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:54:30,235] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:54:30,280] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:54:30,288] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.504 seconds
+[2019-04-14 19:55:11,809] {jobs.py:398} INFO - Started process (PID=23100) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:55:11,812] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:55:11,812] {logging_mixin.py:95} INFO - [2019-04-14 19:55:11,812] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:55:11,934] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:55:11,956] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:55:11,968] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:55:11,971] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 0.162 seconds
+[2019-04-14 19:56:30,184] {jobs.py:398} INFO - Started process (PID=23324) to work on /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:56:30,204] {jobs.py:1711} INFO - Processing file /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py for tasks to queue
+[2019-04-14 19:56:30,204] {logging_mixin.py:95} INFO - [2019-04-14 19:56:30,204] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:57:10,324] {logging_mixin.py:95} INFO - [2019-04-14 19:57:09,476] {timeout.py:42} ERROR - Process timed out, PID: 23324
+[2019-04-14 19:59:32,082] {jobs.py:1723} INFO - DAG(s) dict_keys(['train']) retrieved from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 19:59:32,778] {jobs.py:1446} INFO - Processing train
+[2019-04-14 19:59:33,203] {jobs.py:632} INFO - Skipping SLA check for <DAG: train> because no tasks in DAG have SLAs
+[2019-04-14 19:59:33,276] {jobs.py:406} INFO - Processing /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py took 183.089 seconds

@@ -1,0 +1,489 @@
+[2019-04-14 18:08:28,702] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.train_task 2019-04-14T22:07:55.180012+00:00 [queued]>
+[2019-04-14 18:08:28,707] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: train.train_task 2019-04-14T22:07:55.180012+00:00 [queued]>
+[2019-04-14 18:08:28,708] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 18:08:28,708] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-04-14 18:08:28,708] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-04-14 18:08:28,721] {__init__.py:1374} INFO - Executing <Task(PythonOperator): train_task> on 2019-04-14T22:07:55.180012+00:00
+[2019-04-14 18:08:28,721] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'train', 'train_task', '2019-04-14T22:07:55.180012+00:00', '--job_id', '12', '--raw', '-sd', 'DAGS_FOLDER/train.py', '--cfg_path', '/tmp/tmp5_w74gs7']
+[2019-04-14 18:08:29,149] {base_task_runner.py:101} INFO - Job 12: Subtask train_task /home/xiuqi/.local/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/xiuqi/airflow/airflow.cfg and /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-04-14 18:08:29,149] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   category=DeprecationWarning,
+[2019-04-14 18:08:29,322] {base_task_runner.py:101} INFO - Job 12: Subtask train_task [2019-04-14 18:08:29,321] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-04-14 18:08:29,524] {base_task_runner.py:101} INFO - Job 12: Subtask train_task [2019-04-14 18:08:29,524] {__init__.py:305} INFO - Filling up the DagBag from /home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py
+[2019-04-14 18:08:29,635] {base_task_runner.py:101} INFO - Job 12: Subtask train_task [2019-04-14 18:08:29,635] {cli.py:517} INFO - Running <TaskInstance: train.train_task 2019-04-14T22:07:55.180012+00:00 [running]> on host xiuqi-debian
+[2019-04-14 18:08:29,645] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=train
+AIRFLOW_CTX_TASK_ID=train_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-14T22:07:55.180012+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-04-14T22:07:55.180012+00:00
+[2019-04-14 18:08:30,473] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Ivy Default Cache set to: /home/xiuqi/.ivy2/cache
+[2019-04-14 18:08:30,473] {base_task_runner.py:101} INFO - Job 12: Subtask train_task The jars for the packages stored in: /home/xiuqi/.ivy2/jars
+[2019-04-14 18:08:30,506] {base_task_runner.py:101} INFO - Job 12: Subtask train_task :: loading settings :: url = jar:file:/usr/local/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2019-04-14 18:08:30,620] {base_task_runner.py:101} INFO - Job 12: Subtask train_task org.mongodb.spark#mongo-spark-connector_2.11 added as a dependency
+[2019-04-14 18:08:30,622] {base_task_runner.py:101} INFO - Job 12: Subtask train_task :: resolving dependencies :: org.apache.spark#spark-submit-parent-f9b0a019-ce87-4e88-beeb-e4ff26b4410f;1.0
+[2019-04-14 18:08:30,622] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	confs: [default]
+[2019-04-14 18:08:30,833] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	found org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 in spark-list
+[2019-04-14 18:08:30,862] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	found org.mongodb#mongo-java-driver;3.9.0 in spark-list
+[2019-04-14 18:08:30,887] {base_task_runner.py:101} INFO - Job 12: Subtask train_task :: resolution report :: resolve 260ms :: artifacts dl 5ms
+[2019-04-14 18:08:30,887] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	:: modules in use:
+[2019-04-14 18:08:30,887] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	org.mongodb#mongo-java-driver;3.9.0 from spark-list in [default]
+[2019-04-14 18:08:30,887] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	org.mongodb.spark#mongo-spark-connector_2.11;2.4.0 from spark-list in [default]
+[2019-04-14 18:08:30,888] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	---------------------------------------------------------------------
+[2019-04-14 18:08:30,888] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	|                  |            modules            ||   artifacts   |
+[2019-04-14 18:08:30,888] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2019-04-14 18:08:30,888] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	---------------------------------------------------------------------
+[2019-04-14 18:08:30,888] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+[2019-04-14 18:08:30,888] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	---------------------------------------------------------------------
+[2019-04-14 18:08:30,892] {base_task_runner.py:101} INFO - Job 12: Subtask train_task :: retrieving :: org.apache.spark#spark-submit-parent-f9b0a019-ce87-4e88-beeb-e4ff26b4410f
+[2019-04-14 18:08:30,892] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	confs: [default]
+[2019-04-14 18:08:30,899] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	0 artifacts copied, 2 already retrieved (0kB/7ms)
+[2019-04-14 18:08:30,949] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 2019-04-14 18:08:30 WARN  Utils:66 - Your hostname, xiuqi-debian resolves to a loopback address: 127.0.1.1; using 192.168.1.191 instead (on interface wlp2s0)
+[2019-04-14 18:08:30,949] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 2019-04-14 18:08:30 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+[2019-04-14 18:08:31,252] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 2019-04-14 18:08:31 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2019-04-14 18:08:31,691] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Setting default log level to "WARN".
+[2019-04-14 18:08:31,691] {base_task_runner.py:101} INFO - Job 12: Subtask train_task To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2019-04-14 18:08:32,575] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 2019-04-14 18:08:32 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2019-04-14 18:08:35,829] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:36,017] {base_task_runner.py:101} INFO - Job 12: Subtask train_task [Stage 0:>                                                          (0 + 1) / 1]
+[2019-04-14 18:08:38,940] {base_task_runner.py:101} INFO - Job 12: Subtask train_task                                                                                 
+[2019-04-14 18:08:38,940] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task [Stage 1:>                                                          (0 + 1) / 1]2019-04-14 18:08:39 ERROR Executor:91 - Exception in task 0.0 in stage 1.0 (TID 1)
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     ("%d.%d" % sys.version_info[:2], version))
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 18:08:39,068] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 18:08:39,069] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 2019-04-14 18:08:39 WARN  TaskSetManager:66 - Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     ("%d.%d" % sys.version_info[:2], version))
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+[2019-04-14 18:08:39,101] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 18:08:39,102] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:39,107] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 2019-04-14 18:08:39 ERROR TaskSetManager:70 - Task 0 in stage 1.0 failed 1 times; aborting job
+[2019-04-14 18:08:39,128] {__init__.py:1580} ERROR - An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 1.0 failed 1 times, most recent failure: Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1887)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1875)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1874)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1874)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2108)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2057)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2046)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:945)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:363)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:944)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Traceback (most recent call last):
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+    return_value = self.execute_callable()
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 11, in train_task
+    a.do()
+  File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 61, in do
+    b = np.mean(df.rdd.map(lambda x: np.array(x['b'])).collect(), axis = 0)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 816, in collect
+    sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/sql/utils.py", line 63, in deco
+    return f(*a, **kw)
+  File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 1.0 failed 1 times, most recent failure: Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1887)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1875)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1874)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1874)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2108)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2057)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2046)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:945)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:363)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:944)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+
+[2019-04-14 18:08:39,217] {__init__.py:1611} INFO - Marking task as FAILED.
+[2019-04-14 18:08:39,292] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Traceback (most recent call last):
+[2019-04-14 18:08:39,292] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/bin/airflow", line 32, in <module>
+[2019-04-14 18:08:39,292] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     args.func(args)
+[2019-04-14 18:08:39,292] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-04-14 18:08:39,292] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     return f(*args, **kwargs)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     _run(args, dag, ti)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     pool=args.pool,
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     return func(*args, **kwargs)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     result = task_copy.execute(context=context)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 112, in execute
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     return_value = self.execute_callable()
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/train.py", line 11, in train_task
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     a.do()
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/Dropbox/MLE/myProject/airflow/airflow_home/dags/interval_train.py", line 61, in do
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     b = np.mean(df.rdd.map(lambda x: np.array(x['b'])).collect(), axis = 0)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/rdd.py", line 816, in collect
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/java_gateway.py", line 1257, in __call__
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     answer, self.gateway_client, self.target_id, self.name)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/pyspark/sql/utils.py", line 63, in deco
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     return f(*a, **kw)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/home/xiuqi/.local/lib/python3.7/site-packages/py4j/protocol.py", line 328, in get_return_value
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     format(target_id, ".", name), value)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task : org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 1.0 failed 1 times, most recent failure: Lost task 0.0 in stage 1.0 (TID 1, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     ("%d.%d" % sys.version_info[:2], version))
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 18:08:39,293] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Driver stacktrace:
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1887)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1875)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1874)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1874)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+[2019-04-14 18:08:39,294] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:926)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.Option.foreach(Option.scala:257)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:926)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2108)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2057)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2046)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:737)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:945)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD.withScope(RDD.scala:363)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD.collect(RDD.scala:944)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at py4j.Gateway.invoke(Gateway.java:282)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.lang.Thread.run(Thread.java:748)
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task   File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 262, in main
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task     ("%d.%d" % sys.version_info[:2], version))
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task Exception: Python in worker has different version 2.7 than that in driver 3.7, PySpark cannot run with different minor versions.Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:39,295] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:452)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:588)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:571)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:406)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(RDD.scala:945)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.scheduler.Task.run(Task.scala:121)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:402)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:408)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2019-04-14 18:08:39,296] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 	... 1 more
+[2019-04-14 18:08:39,662] {base_task_runner.py:101} INFO - Job 12: Subtask train_task 
+[2019-04-14 18:08:43,989] {logging_mixin.py:95} INFO - [2019-04-14 18:08:43,989] {jobs.py:2562} INFO - Task exited with return code 1
